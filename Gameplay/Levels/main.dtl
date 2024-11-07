@@ -1,9 +1,12 @@
 join Player (animated) center
 [music path="res://assets/pavane for a dead princess.mp3" fade="0.0" volume="-10.0"]
 Player: This is it.
-Player: My final moments. Laying in my death bed. I have lived a life like many others, with its ups and downs.
+My final moments.
+Laying in my death bed. I have lived a life like many others, with its ups and downs.
 I do have some regrets though...
+This is how I would do things differently, this time around.
 jump 20_choice/
+
 label End game
 Player: In the end, I can't really complain. It was a good run.
 [end_timeline]

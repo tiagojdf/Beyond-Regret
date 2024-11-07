@@ -1,11 +1,58 @@
 # Average health on 20s is between 90 and 70
 Player: I remember very well my 20s. I was starting out in the world on my own. The world was my oyster.
-- I should have worked less.
-	jump Work less
-- I am fine. I have made peace with my choices.
-	jump main/End game
-	- I am fine. I have made peace with my choices.
-label Work less
-Player: I have spent most of my life working. This time around, I will work less, and spend more time with my family.
+- I didn’t travel or pursue my passions.
+	jump pursue_passions
+- I didn’t focus enough on my career ambitions.
+	# This path can lead to burn out
+	jump work_harder
+- I neglected relationships and put myself first.
+	jump bond
+
+label pursue_passions
+Player: I've put in all of my energy into my career and missed out on seeing the world and exploring my personal interests. This time around I would take my time before starting to work, focusing on self-discovery.
+I would\:
+- Backpack across several countries, taking temporary jobs.
+	Player: TBD
+	set {values.meaning} += 10
+	set {values.connection} += 5
+	set {values.fulfillment} += 10
+	set {values.legacy} += 5
+	set {values.inner_peace} += 5
+	set {values.health} += 10
+
+- Pursue an artistic passion, like writing or painting.
+	Player: TBD
+	set {values.meaning} += 15
+	set {values.connection} -= 5
+	set {values.fulfillment} += 15
+	set {values.legacy} += 5
+	set {values.inner_peace} += 5
+	set {values.health} += 10
+
+- Join a volunteer organization and work in underserved communities.
+	Player: TBD
+	set {values.meaning} += 20
+	set {values.connection} += 10
+	set {values.fulfillment} += 10
+	set {values.legacy} += 10
+	set {values.inner_peace} += 5
+	set {values.health} += 10
+
+jump 40_choice/
+
+label work_harder
+Player: Instead of building a solid foundation for the future, I drifted through my early adulthood. Thinking back, I was unprepared back then, and I never quite managed to catch up with my peers. My professional life was always lagging behind.
+- Pursue an artistic passion, like writing or painting.
+- Pursue an artistic passion, like writing or painting.
+- Pursue an artistic passion, like writing or painting.
+set {values.health} -= 10
+jump 40_choice/
+
+label bond
+Player: I always put myself before others, and prioritized my independence and personal ambitions over building friendships or starting meaningful relationships. I wish I had:
+- Pursue an artistic passion, like writing or painting.
+- Pursue an artistic passion, like writing or painting.
+- Pursue an artistic passion, like writing or painting.
 set {values.connection} += 10
-jump 
+
+jump 40_choice/

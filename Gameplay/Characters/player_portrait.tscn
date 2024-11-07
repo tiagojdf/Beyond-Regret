@@ -19,6 +19,7 @@ angle_max = 45.0
 gravity = Vector3(0, -10, 0)
 scale_min = 0.3
 scale_max = 0.4
+color = Color(1, 0, 0, 1)
 color_ramp = SubResource("GradientTexture1D_dyjqb")
 
 [node name="PlayerPortrait" type="Node2D"]

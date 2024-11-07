@@ -1,4 +1,5 @@
 # Average health on 60s is between 50 and 30
+set {values.health} -= 20
 Player: I now contemplate my late life.
 - I should have worked less.
 	jump Work less
@@ -8,4 +9,5 @@ Player: I now contemplate my late life.
 label Work less
 Player: I have spent most of my life working. This time around, I will work less, and spend more time with my family.
 set {values.connection} += 10
-jump
+
+jump main/End game
