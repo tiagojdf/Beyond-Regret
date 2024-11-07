@@ -1,0 +1,11 @@
+# Average health on 60s is between 50 and 30
+Player: I now contemplate my late life.
+- I should have worked less.
+	jump Work less
+- I am fine. I have made peace with my choices.
+	jump main/End game
+	- I am fine. I have made peace with my choices.
+label Work less
+Player: I have spent most of my life working. This time around, I will work less, and spend more time with my family.
+set {values.connection} += 10
+jump

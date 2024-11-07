@@ -1,0 +1,31 @@
+[gd_scene load_steps=6 format=3 uid="uid://bxs8x87coqwtk"]
+
+[ext_resource type="Texture2D" uid="uid://m1kj16yxshdv" path="res://assets/smoke_02.png" id="1_e182x"]
+[ext_resource type="Script" path="res://Gameplay/Characters/player_portrait.gd" id="1_ifgs5"]
+
+[sub_resource type="Gradient" id="Gradient_nl7op"]
+offsets = PackedFloat32Array(0, 0.245902, 0.692623, 1)
+colors = PackedColorArray(1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0)
+
+[sub_resource type="GradientTexture1D" id="GradientTexture1D_dyjqb"]
+gradient = SubResource("Gradient_nl7op")
+
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_o00y5"]
+particle_flag_disable_z = true
+emission_shape = 1
+emission_sphere_radius = 1.0
+angle_min = -45.0
+angle_max = 45.0
+gravity = Vector3(0, -10, 0)
+scale_min = 0.3
+scale_max = 0.4
+color_ramp = SubResource("GradientTexture1D_dyjqb")
+
+[node name="PlayerPortrait" type="Node2D"]
+position = Vector2(80, -70)
+script = ExtResource("1_ifgs5")
+
+[node name="GPUParticles2D" type="GPUParticles2D" parent="."]
+amount = 6
+process_material = SubResource("ParticleProcessMaterial_o00y5")
+texture = ExtResource("1_e182x")

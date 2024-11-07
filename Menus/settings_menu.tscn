@@ -1,4 +1,4 @@
-[gd_scene load_steps=5 format=3 uid="uid://ds3g65fim75uk"]
+[gd_scene load_steps=4 format=3 uid="uid://ds3g65fim75uk"]
 
 [ext_resource type="Script" path="res://Menus/settings_menu.gd" id="1_pkcrv"]
 
@@ -16,9 +16,6 @@ corner_radius_top_left = 4
 corner_radius_top_right = 4
 corner_radius_bottom_right = 4
 corner_radius_bottom_left = 4
-
-[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_nyix4"]
-bg_color = Color(0.6, 0.6, 0.6, 0)
 
 [node name="SettingsMenu" type="CanvasLayer"]
 process_mode = 2
@@ -112,26 +109,9 @@ max_value = 1.0
 step = 0.05
 value = 1.0
 
-[node name="Language" type="Label" parent="Panel/BackgroundPanel/MarginContainer/VBoxContainer/MarginContainer/GridContainer"]
-custom_minimum_size = Vector2(175, 0)
+[node name="Control" type="Control" parent="Panel/BackgroundPanel/MarginContainer/VBoxContainer"]
 layout_mode = 2
-text = "Language
-"
-
-[node name="LanguageDropdown" type="OptionButton" parent="Panel/BackgroundPanel/MarginContainer/VBoxContainer/MarginContainer/GridContainer"]
-unique_name_in_owner = true
-layout_mode = 2
-item_count = 2
-selected = 0
-popup/item_0/text = "English"
-popup/item_0/id = 0
-popup/item_1/text = "Spanish (Latin America)"
-popup/item_1/id = 1
-
-[node name="Panel" type="Panel" parent="Panel/BackgroundPanel/MarginContainer/VBoxContainer"]
-custom_minimum_size = Vector2(2.08165e-12, 25)
-layout_mode = 2
-theme_override_styles/panel = SubResource("StyleBoxFlat_nyix4")
+size_flags_vertical = 3
 
 [node name="HBoxContainer" type="HBoxContainer" parent="Panel/BackgroundPanel/MarginContainer/VBoxContainer"]
 layout_mode = 2
@@ -163,7 +143,6 @@ text = "Quit"
 
 [connection signal="value_changed" from="Panel/BackgroundPanel/MarginContainer/VBoxContainer/MarginContainer/GridContainer/MusicSlider" to="." method="_on_music_slider_value_changed"]
 [connection signal="value_changed" from="Panel/BackgroundPanel/MarginContainer/VBoxContainer/MarginContainer/GridContainer/SFXSlider" to="." method="_on_sfx_slider_value_changed"]
-[connection signal="item_selected" from="Panel/BackgroundPanel/MarginContainer/VBoxContainer/MarginContainer/GridContainer/LanguageDropdown" to="." method="_on_language_dropdown_item_selected"]
 [connection signal="pressed" from="Panel/BackgroundPanel/MarginContainer/VBoxContainer/HBoxContainer/CloseButton" to="." method="_on_close_button_pressed"]
 [connection signal="pressed" from="Panel/BackgroundPanel/MarginContainer/VBoxContainer/HBoxContainer/SaveButton" to="." method="_on_save_button_pressed"]
 [connection signal="pressed" from="Panel/BackgroundPanel/MarginContainer/VBoxContainer/HBoxContainer/QuitButton" to="." method="_on_quit_button_pressed"]

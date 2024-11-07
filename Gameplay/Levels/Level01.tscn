@@ -1,9 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://dakphwh8q4546"]
 
-[ext_resource type="Texture2D" uid="uid://b26pff71s3o5f" path="res://icon.svg" id="1_wne7b"]
+[ext_resource type="Script" path="res://Gameplay/Levels/level_01.gd" id="1_uveal"]
 
 [node name="Level01" type="Node2D"]
-
-[node name="Icon" type="Sprite2D" parent="."]
-position = Vector2(93, 89)
-texture = ExtResource("1_wne7b")
+script = ExtResource("1_uveal")
