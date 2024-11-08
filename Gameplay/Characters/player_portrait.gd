@@ -5,6 +5,11 @@ extends DialogicPortrait
 
 var health_per_centage: float
 
+func _ready() -> void:
+	if Engine.is_editor_hint():
+		set_physics_process(false)
+		set_process(false)
+
 func _process(_delta: float) -> void:
 	if gpu_particles_2d == null:
 		return

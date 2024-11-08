@@ -1,58 +1,249 @@
 # Average health on 20s is between 90 and 70
-Player: I remember very well my 20s. I was starting out in the world on my own. The world was my oyster.
+Player: Like when I was 20. It feels strange, now, to think of myself back then, when I was just stepping out into the world for the first time. I felt like I was holding everything in my hands, like the whole world was mine to explore if I just reached far enough.
+Player: But it turns out, time slips away so quietly. One choice leads to another, and before you know it, a whole chapter of life has turned.
+Player: I still regret that back then...
+
 - I didn’t travel or pursue my passions.
 	jump pursue_passions
 - I didn’t focus enough on my career ambitions.
 	# This path can lead to burn out
-	jump work_harder
+	jump work_harderd
 - I neglected relationships and put myself first.
 	jump bond
 
 label pursue_passions
-Player: I've put in all of my energy into my career and missed out on seeing the world and exploring my personal interests. This time around I would take my time before starting to work, focusing on self-discovery.
-I would\:
-- Backpack across several countries, taking temporary jobs.
-	Player: TBD
-	set {values.meaning} += 10
-	set {values.connection} += 5
-	set {values.fulfillment} += 10
-	set {values.legacy} += 5
-	set {values.inner_peace} += 5
-	set {values.health} += 10
+Player: I stayed close to home, always telling myself that someday I’d go, that someday would be my time to truly explore. And now, lying here, I can’t help but feel the ache of those paths not taken.
+Player: I wish I’d seen more of the world, my love. I wish I’d given myself the freedom to roam, to discover who I was outside the familiar places and routines. I wonder how different I might have been if I’d followed that yearning, even just once.
+Player: I still regret that back then I didn’t travel or pursue my passions. It’s funny, isn’t it? How the things you don’t do can feel just as heavy as the things you do.
 
-- Pursue an artistic passion, like writing or painting.
-	Player: TBD
+Player: I wish I had\:
+- Backpacked across several countries, taking temporary jobs.
+	Player: I should have just grabbed a backpack and go, with nothing but a few essentials and a heart full of curiosity.
+	Player: I imagine myself working in a little café in Paris, or maybe I’d sleep in a hostel in Cairo, surrounded by the hum of the city and the scent of spices in the market. I could have wandered the streets of Bangkok, sampling street food at every corner, while watching the world go by.
+	Player: I can almost picture it now. The days filled with endless possibilities.
+	Player: I would have found my way through the busy streets of Rio, catching the vibrant energy of the city, and watched the sun dip over the beaches of Copacabana, while feeling the warmth of the ocean breeze.
+	Player: Perhaps I’d wander through the wide savannahs of Kenya, staying in a small village, hearing the stories of people whose lives were so different from mine, yet so full of the same human longing.
+	Player: In the evening, I would have sat under the stars in the African plains, watching the Milky Way unfold in the endless sky.
+	Player: Maybe I’d have spent some time in the United States—walking the bustling streets of New York City, taking in the lights of Times Square, and feeling the pulse of the city that never sleeps.
+	Player: But I could have also driven along the Pacific Coast Highway in California, the ocean on one side, the rugged cliffs on the other, with the wind in my hair and the sun on my skin.
+	Player: Maybe I’d have gone to the southern tip of the world, to Antarctica, to witness the penguins in their natural habitat.
+	Player: I imagine standing there, surrounded by ice and snow, the cold so sharp it cuts through you. But then, seeing the penguins. Waddling across the ice, all fluffed up, tumbling over each other in playful joy.
+	Player: Can you imagine that? Their little feet sliding, their clumsy joy, reminding me that even in the coldest places, you can witness incredible things.
+	Player: And maybe, I’d have made my way to Australia. I’d have explored the Great Barrier Reef, swimming with the vibrant fish in crystal-clear waters, the coral beneath me bursting with life.
+	Player: Or maybe I’d have hiked through the rugged Outback, standing in awe before Uluru, feeling the vastness of the land and the ancient stories it holds. There’s something about that wild, untamed place that calls out to you, isn’t there?
+	Player: And I would have returned, my love, with stories to tell—memories from every corner of the globe, friendships woven across continents. Those years, spent chasing the unknown, would have taught me more about myself than anything else ever could.
+	# gains from unique experiences and self-discovery
 	set {values.meaning} += 15
-	set {values.connection} -= 5
-	set {values.fulfillment} += 15
-	set {values.legacy} += 5
-	set {values.inner_peace} += 5
-	set {values.health} += 10
+	# distance from friends/family weakens bonds
+	set {values.connection} += -10
+	# satisfaction from living adventurousl
+	set {values.fulfillment} += 20
+	# little impact on long-term legacy
+	set {values.legacy} += 0
+	# gains from sense of freedom
+	set {values.inner_peace} += 10
+	# stress and physical demands of travel
+	set {values.health} += -10
 
-- Join a volunteer organization and work in underserved communities.
-	Player: TBD
-	set {values.meaning} += 20
-	set {values.connection} += 10
-	set {values.fulfillment} += 10
+- Pursued an artistic passion, like writing or painting.
+	Player: I could have dedicated those years to art, you know? Pouring myself into every brushstroke, each line of a story, as if they held pieces of me waiting to be uncovered.
+	I can almost picture it now—waking up with the sunrise, spending quiet mornings painting or scribbling, losing all track of time.
+	Can you imagine?
+	I’d have set up a little easel by the window, watching the light change as I tried to capture its colors on canvas, or maybe I’d be in some cozy café, jotting down stories on napkins, letting the world around me drift into something new on the page.
+	We’d have had those kinds of days where I’d show you some half-finished piece, feeling a little embarrassed but excited, and you’d smile and tell me to keep going.
+	Those little moments of encouragement would have meant the world, you know?
+	Just knowing you believed in me would’ve given me the courage to keep creating, to keep putting parts of myself out there.
+	Maybe I’d have even tried sharing my work with others. Nothing big, just a painting in a small gallery or a story quietly tucked into some magazine. I’d have been so nervous, wondering what people might think, but I am sure you'd be there for me, proud of me, and that would have made all the difference.
+	I think those years would have taught me a lot. Each piece I created would have shown me something about myself, helped me understand the parts I sometimes kept hidden. And maybe, through all that, I’d have learned how to let myself be seen, to feel less afraid of showing who I truly was.
+	# fulfillment from creative expression
+	set {values.meaning} += 10
+	# stronger personal connection through self-expression
+	set {values.connection} += 5
+	# deeply rewarding sense of fulfillment from creating
+	set {values.fulfillment} += 25
+	# building a modest legacy through art
 	set {values.legacy} += 10
-	set {values.inner_peace} += 5
-	set {values.health} += 10
+	# inner peace from honoring personal passion
+	set {values.inner_peace} += 15
+	# physical toll from late nights, self-neglect
+	set {values.health} += -5
+
+- Joined a volunteer organization and worked in underserved communities abroad.
+	Player: I wonder what would have happened if I had joined a volunteer organization, packed up, and left home to work in communities that needed a helping hand.
+	Spending my days building houses or teaching in some small school. You know how much I love kids.
+	Maybe I’d have been welcomed into a remote village in the hills of Nepal, learning their language bit by bit, and being met each morning by the children’s laughter as they ran down dusty paths toward school.
+	Can you picture it? Maybe I’d have helped a family with their garden, working side by side in the soil, feeling the sun on our backs and the satisfaction of growing something from the ground up.
+	And in the evenings, they might have invited me into their homes, offering whatever they had and in those simple gestures, I would have felt the strength of true community.
+	I think of how much I would have learned, being immersed in traditions that had been passed down for generations. Maybe I’d have joined in their festivals, dancing under bright lanterns in the streets of a small town in Ghana, or listening to stories shared around a fire in a village in the Andes. I’d have come to see how deeply connected we all are.
+	Those years, I imagine, would have given me a purpose I never knew I needed—a chance to truly give without expecting anything in return. And I’d have carried those lessons with me every day, feeling the gratitude, humility, and shared humanity I’d found with them.
+	# meaningful impact from supporting others
+	set {values.meaning} += 20
+	# strong connections through shared experiences and empathy
+	set {values.connection} += 15
+	# fulfillment from making a difference
+	set {values.fulfillment} += 10
+	# small but positive legacy in the community served
+	set {values.legacy} += 5
+	# inner peace from helping others
+	set {values.inner_peace} += 10
+	# some health impact from challenging conditions
+	set {values.health} += -5
 
 jump 40_choice/
 
 label work_harder
-Player: Instead of building a solid foundation for the future, I drifted through my early adulthood. Thinking back, I was unprepared back then, and I never quite managed to catch up with my peers. My professional life was always lagging behind.
-- Pursue an artistic passion, like writing or painting.
-- Pursue an artistic passion, like writing or painting.
-- Pursue an artistic passion, like writing or painting.
-set {values.health} -= 10
+Player: You know, I had dreams of building a life that meant something, of doing work that would leave a mark.
+Back then, though, I thought I had all the time in the world. It felt like there was no rush, like the pieces would fall into place as long as I just kept moving forward.
+I dabbled here and there, tried different things. But I never really gave my work the focus it needed.
+I settled for “good enough” instead of pushing to see what I could truly accomplish.
+Looking back, I wonder how things might have turned out if I’d poured myself into it. If I’d let myself fully chase that potential I felt inside.
+Would I feel more at peace now, knowing I’d given it everything I had? I know I could have achieved so much more, created something lasting.
+If only I’d let myself go for it when I still had the chance.
+
+If only I had\:
+- Pursued an ambitious and high-pressure job at a prestigious company.
+	Player: You know, I sometimes wonder what life would’ve been like if I’d gone after one of those ambitious, high-pressure jobs back in the fifties.
+	I can picture it. Me, young and driven, in a pressed suit and polished shoes, carrying a briefcase and ready to prove myself. I’d be that determined young man, putting in long hours by the glow of a desk lamp, running on coffee and dreams.
+	Can you imagine? Maybe I’d have started as an assistant or an errand boy, working my way up through grit and long hours, grabbing any opportunity they threw my way.
+	I’d be navigating office politics, trying to impress the boss with every report or proposal, pushing myself with every promotion. There would have been pressure, sure, but there would’ve been excitement too, a thrill in knowing I was moving up in the world.
+	The satisfaction would have been something else, wouldn’t it? Knowing I was responsible for something big, seeing my name on a project or hearing it in a meeting room as everyone nodded along.
+	It was a different time then; a career could mean everything.
+	But maybe, after a few years, the shine would’ve worn off.
+	Maybe I’d have felt the wear and tear of all those long hours, wondering if it was worth missing dinner with you, or missing out on a quiet Sunday afternoon.
+	And back then, the corporate world wasn’t so kind. There was always another young man ready to replace you, always a bit of uncertainty hanging over it all.
+	It’s strange... Looking back now, I can see both sides. The pride I might’ve felt, the toll it would’ve taken. I would’ve had a house filled with things, a life filled with accomplishments, but maybe it wouldn’t have left me much time for what truly mattered.
+	# major career advancement and professional recognition
+	set {values.meaning} += 20
+	# strained relationships due to work demands
+	set {values.connection} += -10
+	# high achievement but diminished personal fulfillment
+	set {values.fulfillment} += 10
+	# long-lasting professional legacy
+	set {values.legacy} += 25
+	# reduced inner peace due to stress and pressure
+	set {values.inner_peace} += -15
+	# declining health from overwork and stress
+	set {values.health} += -20
+
+
+- Enrolled in a rigorous graduate program to fast-track your career path.
+	Player: You know, love, I've been thinking about how things might have turned out differently if I’d thrown myself into my studies back then, if I’d pushed harder to follow the academic path.
+	I could’ve spent all those years in classrooms, working through textbooks and research, trying to master every detail, all the while focused on building a career, proving I was good enough.
+	And maybe I would have had the credentials, the prestige, the recognition I thought mattered.
+	But then, I think about us. I think about the time we spent together, just enjoying life, laughing, talking, making memories while we were studying, but also letting the days unfold without a rigid schedule.
+	If I’d really buried myself in my work, who knows how many of those quiet moments we would’ve missed? How much would I have lost by not being present with you, not finding joy in our time together?
+	I remember our late-night walks, the dinners we shared, the way you always knew how to make me feel like I was special.
+	But I also feel I didn’t push myself to be the best I could be in my studies. I sometimes wonder if I missed out on more than just having a better education. Maybe I missed out on the chance to know myself better, to grow in ways that would have made me feel more whole, more complete.
+	# academic success and career acceleration
+	set {values.meaning} += 15
+	# strained or neglected relationships due to academic focus
+	set {values.connection} += -10
+	# sense of accomplishment from educational milestones
+	set {values.fulfillment} += 15
+	# legacy in the form of academic credentials and expertise
+	set {values.legacy} += 20
+	# stress from academic pressure and intense work
+	set {values.inner_peace} += -10
+	# health risks due to lack of balance and rest
+	set {values.health} += -10
+
+
+- Started my own business or side project that aligned with my career goals.
+	Player: You know what keeps coming back to me lately? I can see it so clearly... That repair shop I could have started back then, when I was in my twenties.
+	I had those tools from my time in the service, and everyone in the neighborhood needed someone who could fix things.
+	I can almost feel what those early mornings would have been like - opening up shop at dawn in that empty storefront downtown, the one next to the pharmacy. Would've been like that shop owner who started with just a workbench and ended up with the biggest store in town. Started at my age too.
+	I would've started small, fixing things here and there.
+	Remember that family down the street? Their radio was always acting up, and they kept saying they needed someone reliable. Could've been my first regular customer.
+	From there, maybe become the go-to shop for all the new appliances coming out. Had that whole plan sketched out in my head - even figured out how much the shop lease would cost.
+	There would've been scary moments, like deciding whether or not to leave my job at the factory. I can picture myself sitting at our old kitchen table, counting out our savings, wondering if it would be enough to start.
+	And maybe we could have gone at it together. You could have helped me keeping the books in order. Remember how good you were with numbers? I can imagine us celebrating our first good week at that little diner we loved so much.
+	# entrepreneurial success and career independence
+	set {values.meaning} += 25
+	# personal connections strained by time spent working on the business
+	set {values.connection} += -10
+	# fulfillment from building something of your own
+	set {values.fulfillment} += 20
+	# lasting impact through successful business or side project
+	set {values.legacy} += 15
+	# inner peace from achieving independence, but stress from uncertainty
+	set {values.inner_peace} += -5
+	# physical toll from long hours and stress of business management
+	set {values.health} += -15
+
 jump 40_choice/
 
 label bond
-Player: I always put myself before others, and prioritized my independence and personal ambitions over building friendships or starting meaningful relationships. I wish I had:
-- Pursue an artistic passion, like writing or painting.
-- Pursue an artistic passion, like writing or painting.
-- Pursue an artistic passion, like writing or painting.
-set {values.connection} += 10
+Player: You know what I keep thinking about lately? When I'd come home from work and just close the door on the world. There was always another report to finish, another promotion to chase.
+I can almost feel what those other evenings could have been like - walking down to the corner store with my friends, sharing stories over coffee at their kitchen table.
+Remember those neighbors upstairs? They were always having little get-togethers, and they kept inviting me. Could've been the beginning of something special.
+And you - you kept trying to get me to join you for those weekend trips. I can imagine us there together, sharing those moments, laughing about things that only we would understand.
+
+I wish I could\:
+- Reconnected with old friends and made a commitment to strengthen relationships.
+	Player: You know what I keep thinking about lately? I can see it so clearly... Those friendships from school that I could have kept alive when I was in my twenties.
+	I remember finding those old class photos in a drawer, all those familiar faces. I kept telling myself I'd write letters, make those phone calls. But there was always tomorrow, always next week.
+	I can almost feel what those reunions could have been like - gathering at someone's home, sharing stories about our first jobs, our new lives.
+	Like that person from our old neighborhood who kept everyone connected, hosted dinners where old friends would show up with their families. They were about the same age as me back then.
+	I would've started small - maybe just a letter to a few close friends, asking how they were doing.
+	Remember that old friend who lived by the lake? They wrote twice, asking about meeting up for coffee. Such a shame I never wrote back.
+	And you were right - remember how you kept telling me to join the monthly gatherings at the diner?
+	I can imagine us all there, updating each other on our lives, supporting each other through all those early struggles. The marriages, the new jobs, the disappointments - we could have faced them together.
+	# stronger emotional bonds and meaningful connections
+	set {values.connection} += 25
+	# fulfillment from maintaining lifelong friendships
+	set {values.fulfillment} += 15
+	# increased sense of meaning from shared experiences
+	set {values.meaning} += 10
+	# modest legacy of friendship and community ties
+	set {values.legacy} += 5
+	# inner peace from feeling supported by loved ones
+	set {values.inner_peace} += 20
+	# positive impact on health from meaningful social connections
+	set {values.health} += 10
+
+
+- Committed to a long-term romantic relationship, with plans to build a future together.
+	Player: You know what I keep thinking about lately? I can see it so clearly... The life we could have built together back then, when we were in our twenties.
+	I remember those moments when our hands would brush accidentally, those long walks home where neither of us wanted to say goodbye. But I was always rushing somewhere else, always chasing the next thing.
+	I can almost feel what our home would have been like. That little house you used to dream about, with a small garden that I could have made it my own. Would've been like that couple down the street who grew old in the same house where they started, their love deepening with every passing season.
+	I would've started small - maybe just asking you to share Sunday afternoons with me, making plans beyond just tomorrow or next week.
+	Remember that evening at the festival when you looked at me, and I knew you were waiting for me to say something? Could've been our beginning.
+	From there, we could have built something real, something lasting. Had it all planned in my dreams. I even imagined where we'd put our favorite reading chairs, side by side.
+	There would've been hard times, learning to bend without breaking, to think of 'us' instead of just 'me.' But we could have faced it all together, like we're doing now - only we'd have had all those years between then and now.
+	# deep emotional connection and shared commitment
+	set {values.connection} += 30
+	# profound fulfillment from nurturing a long-term partnership
+	set {values.fulfillment} += 25
+	# meaningful life shared with a partner
+	set {values.meaning} += 20
+	# legacy in the form of a family, shared history, or enduring love
+	set {values.legacy} += 20
+	# inner peace from emotional security and companionship
+	set {values.inner_peace} += 25
+	# positive effects on health from companionship and support
+	set {values.health} += 15
+
+
+- Actively sought out a mentor or joined a community with shared values.
+	Player: You know what I keep thinking about lately? I can see it so clearly... That community center downtown I could have joined when I was in my twenties.
+	I remember walking past it every evening, seeing people gathering there, sharing ideas, supporting each other. I'd slow down sometimes, hearing the laughter and discussions through the open windows.
+	I can almost feel what those evenings could have been like, sitting in those wooden chairs, learning from people who'd walked the path before me. Like that person from work who found their calling there, grew from student to teacher.
+	Remember that retired teacher who always sat in the front? They offered twice to show me the ropes. Could've been the mentor I needed.
+	From there, maybe found my own voice in that community. Had all these questions in my head. Even wrote them down in that little notebook you gave me.
+	There would've been challenging moments, having to admit how much I didn't know. I can picture myself at those first meetings, nervous but eager to find my place. But you were right! Remember how you said those people could help me grow, could show me possibilities I'd never imagined?
+	It's funny how real it feels, even now. All these years later, I can still hear those voices sharing their wisdom, feel the energy of minds coming together. Like a whole other life I can reach out and touch, but never quite grab hold of.
+	# valuable mentorship and guidance leading to growth
+	set {values.connection} += 20
+	# intellectual and emotional fulfillment from meaningful interactions
+	set {values.fulfillment} += 20
+	# strong sense of meaning derived from a supportive community
+	set {values.meaning} += 15
+	# legacy through guidance, teaching, and shared knowledge
+	set {values.legacy} += 10
+	# inner peace from the support and guidance of others
+	set {values.inner_peace} += 15
+	# improved health through positive social engagement and personal growth
+	set {values.health} += 10
+
 
 jump 40_choice/

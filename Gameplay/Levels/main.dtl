@@ -1,10 +1,20 @@
 join Player (animated) center
 [music path="res://assets/pavane for a dead princess.mp3" fade="0.0" volume="-10.0"]
-Player: This is it.
-My final moments.
-Laying in my death bed. I have lived a life like many others, with its ups and downs.
-I do have some regrets though...
-This is how I would do things differently, this time around.
+Player: I can feel myself growing tired now. Every breath a little softer, a little harder to hold onto.
+And yet, your hand… 
+I feel it, warm and steady in mine, just like you’ve always been. I’m so grateful you’re here.
+
+It’s funny, lying here, looking back on it all.
+I never thought life would be like this. I never imagined that, lying here at the end, I’d feel so whole.
+
+I thought that, at the end, I’d only remember the brightest memories, the happiest days. But it’s not like that at all. It’s everything. The laughter, the quiet moments, the things we thought so little of at the time.
+I feel all the moments we shared, yes, but other moments too—the choices I made, the things I held off on, thinking there’d be more time.
+
+For so long, I had this idea of what I was supposed to be, what my life was supposed to look like.
+I thought I’d do something big, something that would leave a mark, and that would be how I’d know I’d lived well. But looking at you now, I see it differently.
+The little things we shared, the way you’d sit with me, laugh with me, all the things I almost took for granted. They’re what mattered the most. You are what mattered the most.
+
+And yet, there’s this ache, too. I can’t pretend I don’t feel it, the weight of some things left undone. It’s not regret exactly… but a kind of quiet wondering. All those “somedays” I thought I’d come back to.
 jump 20_choice/
 
 label End game
