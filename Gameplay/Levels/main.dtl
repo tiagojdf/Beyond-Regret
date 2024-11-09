@@ -1,7 +1,7 @@
 join Player (animated) center
 [music path="res://assets/pavane for a dead princess.mp3" fade="0.0" volume="-10.0"]
 Player: I can feel myself growing tired now. Every breath a little softer, a little harder to hold onto.
-And yet, your hand… 
+And yet, your hand…
 I feel it, warm and steady in mine, just like you’ve always been. I’m so grateful you’re here.
 
 It’s funny, lying here, looking back on it all.
@@ -15,7 +15,7 @@ I thought I’d do something big, something that would leave a mark, and that wo
 The little things we shared, the way you’d sit with me, laugh with me, all the things I almost took for granted. They’re what mattered the most. You are what mattered the most.
 
 And yet, there’s this ache, too. I can’t pretend I don’t feel it, the weight of some things left undone. It’s not regret exactly… but a kind of quiet wondering. All those “somedays” I thought I’d come back to.
-jump 20_choice/
+jump 40_choice/
 
 label End game
 Player: In the end, I can't really complain. It was a good run.

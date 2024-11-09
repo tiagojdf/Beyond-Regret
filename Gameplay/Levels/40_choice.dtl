@@ -1,10 +1,105 @@
 # Average health on 40s is between 70 and 50
 set {values.health} -= 20
-Player: When I think back about my midlife.
-- I should have worked less.
-	jump Work less
-label Work less
-Player: I have spent most of my life working. This time around, I will work less, and spend more time with my family.
-set {values.connection} += 10
+
+Player: You know, my love, even if I have some regrets, I realize how lucky I’ve been to have met you. All those moments we shared, big and small—they’re what made everything feel right, even when I was stumbling along my own path.
+I still think about that night we painted the kitchen.
+Remember?
+We ended up with more paint on ourselves than on the walls.
+We laughed so hard, covered in splashes of yellow, and I knew right then that life with you was the only path I ever wanted to be on.
+Or that time we drove out to see the stars, way out in the countryside. We sat there, wrapped up in blankets, just looking at that wide, endless sky.
+It was moments like those that taught me what really mattered.
+I know this will be hard, losing me. I know there will be empty spaces. But I want you to know that you’re so strong, stronger than you even realize.
+I want you to keep living, to find joy in the quiet moments and courage when things get rough.
+Keep finding beauty where you can, even in the mundane, even in those dark nights.
+[sound path="res://assets/sounds/wheezing02.ogg" volume="0.0" bus="SFX"]
+set {values.health} -= 30
+Player: [wheezing] [ns=3.0!]
+set {values.health} += 30
+Sorry about that.
+Where was I? Oh yes...
+
+Looking back on my forties, I felt like I should have had everything figured out, when I’d built a life but was still shaping what it would truly mean.
+Those years had a momentum of their own. The pace of work, of family, of everyday demands—it was all so consuming. And somehow, even as I tried to keep up, the days slipped by, and suddenly another decade had passed.
+
+Player: Thinking back on those years, I still regret that, even then...
+- I didn’t take care of my physical and mental well-being.
+	jump self_care
+- I wish I’d had the courage to live a life true to myself, not the life others expected of me.
+	jump be_myself
+
+label self_care
+Player: TBD
+- Adopted a balanced lifestyle with regular exercise and mindfulness practices.
+	Player: By my 40s, I should have taken my health more seriously. I could have started prioritizing exercise, finding ways to move that I genuinely enjoyed.
+	Maybe I would have taken up yoga or gone on long hikes, breathing in the fresh air and feeling my muscles strengthen.
+	And mindfulness—it would have given me peace on even the most stressful days. I should have given myself those quiet moments to pause and just be.
+	I might have felt stronger, more at ease, more prepared to face the demands of life with energy and resilience.
+	# added meaning through self-care and intentional living
+	set {values.meaning} += 10
+	# better inner peace from regular mindfulness and reduced stress
+	set {values.inner_peace} += 20
+	# health gains from consistent physical activity and stress relief
+	set {values.health} += 25
+	# modest fulfillment from balanced lifestyle
+	set {values.fulfillment} += 10
+	# no change to legacy
+	set {values.legacy} += 0
+- Sought out therapy or counseling to address underlying emotional issues.
+	Player: I should have made therapy a priority, taken the time to address those things I carried with me over the years.
+	I would have faced the fears and insecurities I’d buried, worked through them instead of letting them quietly shape my life.
+	Therapy could have helped me understand myself, given me the tools to cope better with life’s struggles and to grow as a person.
+	I imagine feeling lighter, freed from old burdens, and more at peace with who I truly was by now.
+	# meaning from working through deep personal issues
+	set {values.meaning} += 15
+	# inner peace gained from emotional clarity
+	set {values.inner_peace} += 25
+	# small improvement to connection through healthier relationships
+	set {values.connection} += 10
+	# positive health impact from mental well-being
+	set {values.health} += 15
+	# modest fulfillment from personal growth
+	set {values.fulfillment} += 10
+	# no change to legacy
+	set {values.legacy} += 0
+
+jump 60_choice/
+
+label be_myself
+Player: TBD
+- Pursued a career path that aligned with my passions, even if it meant disappointing others.
+	Player: I could have had the courage to break away from what others expected of me and chosen a career that spoke to my heart.
+	Maybe I would have followed my love for music, or pursued my fascination with art, even if it meant starting from scratch or facing disapproval.
+	Every day might have felt more like a calling and less like a duty, and maybe I’d have found a sense of purpose that no paycheck could replace.
+	Now, I would have felt the pride of having stayed true to myself, despite all the pressures to conform.
+	# strong boost to fulfillment from following personal passions
+	set {values.fulfillment} += 25
+	# moderate impact on meaning, as career aligns with self-identity
+	set {values.meaning} += 15
+	# inner peace from honoring true self despite societal expectations
+	set {values.inner_peace} += 20
+	# minimal connection impact, as career path focuses on self
+	set {values.connection} += 0
+	# minor effect on health as emotional stress might persist
+	set {values.health} += -5
+	# modest legacy impact if career creates memorable contributions
+	set {values.legacy} += 10
+
+- Prioritized my unique dreams and ambitions, regardless of what others thought.
+	Player: I should have let go of the need to fit in and prioritized what truly mattered to me.
+	I would have given myself permission to chase after those dreams that others dismissed as impractical or unrealistic.
+	Maybe I would have opened a small bookstore or traveled to study ancient history, something that felt deeply personal and enriching.
+	Perhaps now I’d feel the satisfaction of knowing that I didn’t let others’ opinions limit my life—that I followed my path without apology.
+	# added meaning from feeling authentic and personally motivated
+	set {values.meaning} += 20
+	# high fulfillment from living true to personal ambitions
+	set {values.fulfillment} += 20
+	# enhanced inner peace from rejecting external expectations
+	set {values.inner_peace} += 15
+	# minimal impact on connection as focus was inward
+	set {values.connection} += -5
+	# health gain from reduced stress in living authentically
+	set {values.health} += 5
+	# minor legacy impact from inspiring others or creating something lasting
+	set {values.legacy} += 5
 
 jump 60_choice/
