@@ -1,21 +1,21 @@
+if {reached_the_end} == false:
 # Average health on 60s is between 50 and 30
-set {values.health} -= 20
-Promise me you’ll keep going, that you’ll let yourself find happiness. You have a whole lifetime left to live, my love, and I’ll be with you, in every memory, in every moment you choose to keep going. You’ll be okay, I know you will. And knowing that brings me peace.
+	set {values.health} -= 20
+	
 
-Player: TBD
+	Player: TBD
 Player: I now contemplate my late life.
 - Putting off saying how you feel
 	jump express_feelings
 - Spending too much time worrying
 	jump worries
-- I am fine. I have made peace with my choices.
-	jump main/End game
-	- I am fine. I have made peace with my choices.
+
 label express_feelings
 Player: Often, a big regret is not expressing love frequently enough
 How many “I love yous” and “I’m sorrys” should we say but don’t? We should never fail to tell our loved ones that we love them. They’re important words. Moreover, when we don’t say them, we become bitter.
 
 set {choices.60_choice} = "express_feelings"
+jump main/End game
 
 label worries
 Player: Those bad decisions and missed chances still haunt you, don’t they? Whether it’s a career you regret or a relationship you couldn’t fix, it feels like you can’t move on. But here’s the thing: almost everyone in their 60s carries some form of regret, and it’s a heavy burden only if you let it be.

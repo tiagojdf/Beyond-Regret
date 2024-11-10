@@ -22,6 +22,8 @@ jump 20_choice/
 label End game
 set {reached_the_end} = true
 TBD
+Promise me you’ll keep going, that you’ll let yourself find happiness. You have a whole lifetime left to live, my love, and I’ll be with you, in every memory, in every moment you choose to keep going. You’ll be okay, I know you will. And knowing that brings me peace.
+
 - I still regret what I didn't do when I was in my twenties (Go back)
 	jump 20_choice/
 - I still regret what I didn't do when I was in my forties (Go back)
@@ -32,5 +34,5 @@ TBD
 	jump quit
 
 label quit
-Player: In the end, I can't really complain. It was a good run.
+Player: TBD (Thanking for listening to him and showing gratitute)
 [end_timeline]
