@@ -1,32 +1,31 @@
-# Average health on 40s is between 70 and 50
-set {values.health} -= 20
-
-Player: You know, my love, even if I have some regrets, I realize how lucky I’ve been to have met you. All those moments we shared, big and small—they’re what made everything feel right, even when I was stumbling along my own path.
-I still think about that night we painted the kitchen.
-Remember?
-We ended up with more paint on ourselves than on the walls.
-We laughed so hard, covered in splashes of yellow, and I knew right then that life with you was the only path I ever wanted to be on.
-Or that time we drove out to see the stars, way out in the countryside. We sat there, wrapped up in blankets, just looking at that wide, endless sky.
-It was moments like those that taught me what really mattered.
-I know this will be hard, losing me. I know there will be empty spaces. But I want you to know that you’re so strong, stronger than you even realize.
-I want you to keep living, to find joy in the quiet moments and courage when things get rough.
-Keep finding beauty where you can, even in the mundane, even in those dark nights.
-[sound path="res://assets/sounds/wheezing02.ogg" volume="0.0" bus="SFX"]
-set {values.health} -= 30
-Player: [wheezing] [ns=3.0!]
-set {values.health} += 30
-Sorry about that.
-Where was I? Oh yes...
-
-Looking back on my forties, life really started to speed up, and I thought I had it all figured out. But in some ways... I lost myself a bit during those years.
-I got so wrapped up in being what others expected, trying to meet every demand, trying to make everyone else happy. I guess I thought that if I could just hold it all together, that would be enough.
-But I didn’t always listen to what I needed, inside or out. I didn’t take care of myself the way I should have. I kept pushing, ignoring the little signs.
-The tension.
-The exhaustion.
-And the years flew by faster than I realized.
-I wish I’d had the courage then to slow down, to be more honest with myself about what I wanted, not just what everyone else wanted from me.
-Maybe I would’ve told you sooner about the things I struggled with or the things that scared me.
-I know you’d have understood. You always did.
+if {reached_the_end} == false:
+	# Average health on 40s is between 70 and 50
+	set {values.health} -= 20
+	Player: You know, my love, even if I have some regrets, I realize how lucky I’ve been to have met you. All those moments we shared, big and small—they’re what made everything feel right, even when I was stumbling along my own path.
+	I still think about that night we painted the kitchen.
+	Remember?
+	We ended up with more paint on ourselves than on the walls.
+	We laughed so hard, covered in splashes of yellow, and I knew right then that life with you was the only path I ever wanted to be on.
+	Or that time we drove out to see the stars, way out in the countryside. We sat there, wrapped up in blankets, just looking at that wide, endless sky.
+	It was moments like those that taught me what really mattered.
+	I know this will be hard, losing me. I know there will be empty spaces. But I want you to know that you’re so strong, stronger than you even realize.
+	I want you to keep living, to find joy in the quiet moments and courage when things get rough.
+	Keep finding beauty where you can, even in the mundane, even in those dark nights.
+	[sound path="res://assets/sounds/wheezing02.ogg" volume="0.0" bus="SFX"]
+	set {values.health} -= 30
+	Player: [wheezing] [ns=3.0!]
+	set {values.health} += 30
+	Sorry about that.
+	Where was I? Oh yes...
+	Looking back on my forties, life really started to speed up, and I thought I had it all figured out. But in some ways... I lost myself a bit during those years.
+	I got so wrapped up in being what others expected, trying to meet every demand, trying to make everyone else happy. I guess I thought that if I could just hold it all together, that would be enough.
+	But I didn’t always listen to what I needed, inside or out. I didn’t take care of myself the way I should have. I kept pushing, ignoring the little signs.
+	The tension.
+	The exhaustion.
+	And the years flew by faster than I realized.
+	I wish I’d had the courage then to slow down, to be more honest with myself about what I wanted, not just what everyone else wanted from me.
+	Maybe I would’ve told you sooner about the things I struggled with or the things that scared me.
+	I know you’d have understood. You always did.
 
 Player: Thinking back on those years, I still regret that...
 - I didn’t take care of my physical and mental well-being.

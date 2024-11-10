@@ -15,8 +15,22 @@ I thought I’d do something big, something that would leave a mark, and that wo
 The little things we shared, the way you’d sit with me, laugh with me, all the things I almost took for granted. They’re what mattered the most. You are what mattered the most.
 
 And yet, there’s this ache, too. I can’t pretend I don’t feel it, the weight of some things left undone. It’s not regret exactly… but a kind of quiet wondering. All those “somedays” I thought I’d come back to.
-jump 40_choice/
+# TODO: Remove once 60_choice is done
+jump 60_choice/
+jump 20_choice/
 
 label End game
+set {reached_the_end} = true
+TBD
+- I still regret what I didn't do when I was in my twenties (Go back)
+	jump 20_choice/
+- I still regret what I didn't do when I was in my forties (Go back)
+	jump 40_choice/
+- I still regret what I didn't do when I was in my sixties (Go back)
+	jump 60_choice/
+- I am fine. I have made peace with my choices. (End the game)
+	jump quit
+
+label quit
 Player: In the end, I can't really complain. It was a good run.
 [end_timeline]

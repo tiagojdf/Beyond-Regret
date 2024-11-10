@@ -1,8 +1,9 @@
 # Average health on 20s is between 90 and 70
-Player: Like when I was 20. It feels strange, now, to think of myself back then, when I was just stepping out into the world for the first time. I felt like I was holding everything in my hands, like the whole world was mine to explore if I just reached far enough.
-But it turns out, time slips away so quietly. One choice leads to another, and before you know it, a whole chapter of life has turned.
-I still regret that back then...
+if {reached_the_end} == false:
+	Player: Like when I was 20. It feels strange, now, to think of myself back then, when I was just stepping out into the world for the first time. I felt like I was holding everything in my hands, like the whole world was mine to explore if I just reached far enough.
+	But it turns out, time slips away so quietly. One choice leads to another, and before you know it, a whole chapter of life has turned.
 
+Player: I still regret that back then...
 - I didn’t travel or pursue my passions.
 	jump pursue_passions
 - I didn’t focus enough on my career ambitions.

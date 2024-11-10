@@ -34,6 +34,7 @@ directories/dtl_directory={
 }
 variables={
 "name": "",
+"reached_the_end": false,
 "values": {
 "connection": 50,
 "fulfillment": 30,

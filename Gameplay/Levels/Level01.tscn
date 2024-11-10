@@ -34,3 +34,6 @@ layout_mode = 2
 
 [node name="HealthLabel" type="Label" parent="Debug/VBoxContainer"]
 layout_mode = 2
+
+[node name="ReachedTheEndLabel" type="Label" parent="Debug/VBoxContainer"]
+layout_mode = 2
