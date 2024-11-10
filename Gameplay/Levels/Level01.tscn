@@ -17,6 +17,15 @@ layout_mode = 0
 offset_right = 40.0
 offset_bottom = 40.0
 
+[node name="20ChoiceLabel" type="Label" parent="Debug/VBoxContainer"]
+layout_mode = 2
+
+[node name="40ChoiceLabel" type="Label" parent="Debug/VBoxContainer"]
+layout_mode = 2
+
+[node name="60ChoiceLabel" type="Label" parent="Debug/VBoxContainer"]
+layout_mode = 2
+
 [node name="MeaningLabel" type="Label" parent="Debug/VBoxContainer"]
 layout_mode = 2
 

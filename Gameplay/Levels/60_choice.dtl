@@ -4,13 +4,29 @@ Promise me you’ll keep going, that you’ll let yourself find happiness. You h
 
 Player: TBD
 Player: I now contemplate my late life.
-- I should have worked less.
-	jump Work less
+- Putting off saying how you feel
+	jump express_feelings
+- Spending too much time worrying
+	jump worries
 - I am fine. I have made peace with my choices.
 	jump main/End game
 	- I am fine. I have made peace with my choices.
-label Work less
-Player: I have spent most of my life working. This time around, I will work less, and spend more time with my family.
-set {values.connection} += 10
+label express_feelings
+Player: Often, a big regret is not expressing love frequently enough
+How many “I love yous” and “I’m sorrys” should we say but don’t? We should never fail to tell our loved ones that we love them. They’re important words. Moreover, when we don’t say them, we become bitter.
+
+set {choices.60_choice} = "express_feelings"
+
+label worries
+Player: Those bad decisions and missed chances still haunt you, don’t they? Whether it’s a career you regret or a relationship you couldn’t fix, it feels like you can’t move on. But here’s the thing: almost everyone in their 60s carries some form of regret, and it’s a heavy burden only if you let it be.
+
+To shift this mindset, practice self-compassion. Make peace with your past by focusing on what you’ve learned from those experiences. Consider journaling or therapy as ways to unpack and release those lingering feelings of guilt or failure.
+
+Instead of worrying, prepare.
+
+Excessive worries limit our existence and take away our opportunities for growth. When we look closely, much of what worries us will never happen. By getting lost in these anguishing mental labyrinths, we show contempt for the beauty of the present.
+
+stress and worry prevented them from having a more relaxed and focused life
+set {choices.60_choice} = "worries"
 
 jump main/End game

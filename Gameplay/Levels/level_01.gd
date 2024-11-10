@@ -9,6 +9,9 @@ extends Node2D
 @onready var inner_peace_label: Label = $Debug/VBoxContainer/InnerPeaceLabel
 @onready var health_label: Label = $Debug/VBoxContainer/HealthLabel
 @onready var reached_the_end_label: Label = $Debug/VBoxContainer/ReachedTheEndLabel
+@onready var _20_choice_label: Label = $"Debug/VBoxContainer/20ChoiceLabel"
+@onready var _40_choice_label: Label = $"Debug/VBoxContainer/40ChoiceLabel"
+@onready var _60_choice_label: Label = $"Debug/VBoxContainer/60ChoiceLabel"
 
 func _ready() -> void:
 	RenderingServer.set_default_clear_color(Color(.05,.05,.1))
@@ -32,6 +35,9 @@ func update_labels() -> void:
 	inner_peace_label.text = str("Inner Peace: ", Dialogic.VAR.values.inner_peace)
 	health_label.text = str("Health: ", Dialogic.VAR.values.health)
 	reached_the_end_label.text = str("Reached the end: ", Dialogic.VAR.reached_the_end)
+	_20_choice_label.text = str("20 choice: ", Dialogic.VAR.choices.get("20_choice"))
+	_40_choice_label.text = str("20 choice: ", Dialogic.VAR.choices.get("40_choice"))
+	_60_choice_label.text = str("20 choice: ", Dialogic.VAR.choices.get("60_choice"))
 
 func _on_timeline_ended() -> void:
 	Dialogic.timeline_ended.disconnect(_on_timeline_ended)

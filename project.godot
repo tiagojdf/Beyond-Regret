@@ -33,6 +33,11 @@ directories/dtl_directory={
 "main": "res://Gameplay/Levels/main.dtl"
 }
 variables={
+"choices": {
+"20_choice": "",
+"40_choice": "",
+"60_choice": ""
+},
 "name": "",
 "reached_the_end": false,
 "values": {
