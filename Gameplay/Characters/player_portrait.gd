@@ -35,5 +35,5 @@ func update_portrait() -> void:
 
 	tween = get_tree().create_tween()
 	tween.tween_property(process_material, "color", Color.RED.lerp(Color.GREEN, health_per_centage), .3)
-	tween.tween_property(process_material, "scale_min", original_process_material.scale_min * (1 + health_per_centage), .3)
-	tween.tween_property(process_material, "scale_max", original_process_material.scale_max * (1 + health_per_centage), .3)
+	tween.tween_property(process_material, "scale_min", original_process_material.scale_min * (.5 + health_per_centage), .3)
+	tween.tween_property(process_material, "scale_max", original_process_material.scale_max * (.5 + health_per_centage), .3)

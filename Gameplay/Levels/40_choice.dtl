@@ -18,22 +18,43 @@ set {values.health} += 30
 Sorry about that.
 Where was I? Oh yes...
 
-Looking back on my forties, I felt like I should have had everything figured out, when I’d built a life but was still shaping what it would truly mean.
-Those years had a momentum of their own. The pace of work, of family, of everyday demands—it was all so consuming. And somehow, even as I tried to keep up, the days slipped by, and suddenly another decade had passed.
+Looking back on my forties, life really started to speed up, and I thought I had it all figured out. But in some ways... I lost myself a bit during those years.
+I got so wrapped up in being what others expected, trying to meet every demand, trying to make everyone else happy. I guess I thought that if I could just hold it all together, that would be enough.
+But I didn’t always listen to what I needed, inside or out. I didn’t take care of myself the way I should have. I kept pushing, ignoring the little signs.
+The tension.
+The exhaustion.
+And the years flew by faster than I realized.
+I wish I’d had the courage then to slow down, to be more honest with myself about what I wanted, not just what everyone else wanted from me.
+Maybe I would’ve told you sooner about the things I struggled with or the things that scared me.
+I know you’d have understood. You always did.
 
-Player: Thinking back on those years, I still regret that, even then...
+Player: Thinking back on those years, I still regret that...
 - I didn’t take care of my physical and mental well-being.
 	jump self_care
-- I wish I’d had the courage to live a life true to myself, not the life others expected of me.
+- I didn't had the courage to live a life true to myself, not the life others expected of me.
 	jump be_myself
 
 label self_care
-Player: TBD
+Player: I know now I should have taken better care of myself, in ways that went deeper than I realized back then.
+I didn’t pay attention to what my body was trying to tell me. How tired I used to feel at the end of the day, or sometimes even as I woke up. I’d convince myself I didn’t have time for a walk or a moment of quiet, not when there were so many responsibilities, so many things to do.
+And, looking back, it wasn’t just the physical side I neglected.I thought I could keep the stress in check and just power through it all. But those moments of mental strain added up, like weights I didn’t even know I was carrying.
+I regret I didn't do anything about it. I could have:
 - Adopted a balanced lifestyle with regular exercise and mindfulness practices.
-	Player: By my 40s, I should have taken my health more seriously. I could have started prioritizing exercise, finding ways to move that I genuinely enjoyed.
-	Maybe I would have taken up yoga or gone on long hikes, breathing in the fresh air and feeling my muscles strengthen.
-	And mindfulness—it would have given me peace on even the most stressful days. I should have given myself those quiet moments to pause and just be.
-	I might have felt stronger, more at ease, more prepared to face the demands of life with energy and resilience.
+	Player: I know now what a difference it could have made, taking time for the simple things.
+	Moving, breathing, letting my mind settle.
+	I should’ve found a way to make space for those small, steady habits. Even just a walk after dinner, like you always suggested, would’ve helped ease the weight of the day.
+	But I kept brushing it off, there was always some tv show or another excuse to stay at home.
+	I remember you inviting me to join you at the park on Sunday mornings, but I’d always say I was too tired or that I needed to catch up on something. Looking back, I realize those mornings could’ve become something I looked forward to, something we could’ve shared.
+	And then there was that time with the job. You know the one... it almost broke us. It was so unfair, the way they treated me. Day by day, it kept eating me up inside.
+	I was so angry. Really, just furious at how unjust it all felt.
+	And instead of letting it go, I let it spill over onto you, and I know how much that hurt us. I’m so sorry I put us in that dark place. I don’t know how you kept standing by me, through all of it. But you did. I’ll always be grateful for that.
+	I remember when you gently suggested I try meditation. I didn’t take it seriously at first—thought I could just power through it alone, push down the anger and move on. But eventually, I gave in and tried it, just a few minutes of quiet here and there.
+	And you were right; it helped. At first, it felt like a drop in the ocean—just a small pause in all that noise. But with time, things started to change.
+	The anger softened, like I was finally letting go, finding a little bit of peace in the storm. Each day, I began to see things a bit clearer, and bit by bit, I learned to accept what I couldn’t change and finally found the clarity and courage to leave that job behind.
+	I don’t know if I ever told you, but there was this one morning after it all ended, where I’d been up early, watching the first light come in through the window.
+	And for the first time in a long time, I felt calm. I sat there, feeling so thankful for you, for how you’d held me through it all, never wavering.
+	In that quiet moment, I realized how much strength you’d given me, how you were the reason I found my way out; and it brought tears to my eyes.
+	I know I should’ve told you sooner, but thank you—for being there through all of it, even when I couldn’t see the way myself.
 	# added meaning through self-care and intentional living
 	set {values.meaning} += 10
 	# better inner peace from regular mindfulness and reduced stress
@@ -45,10 +66,15 @@ Player: TBD
 	# no change to legacy
 	set {values.legacy} += 0
 - Sought out therapy or counseling to address underlying emotional issues.
-	Player: I should have made therapy a priority, taken the time to address those things I carried with me over the years.
-	I would have faced the fears and insecurities I’d buried, worked through them instead of letting them quietly shape my life.
-	Therapy could have helped me understand myself, given me the tools to cope better with life’s struggles and to grow as a person.
-	I imagine feeling lighter, freed from old burdens, and more at peace with who I truly was by now.
+	Player: You know, looking back, I wish I’d had the courage to get help when I was struggling.
+	Back then, people didn’t talk about these things, not really. Admitting you were having a hard time felt like admitting something was deeply wrong with you.
+	I was afraid people would start looking at me differently, whispering that I’d lost my mind or that I was, you know, weak. I didn’t want anyone thinking I couldn’t handle my own life.
+	There were nights I couldn’t sleep, just lying there, feeling like I was wrestling with myself. And I know you noticed.
+	You’d reach for my hand in the dark, and sometimes I’d pull away—not because I didn’t love you, but because I didn’t want to worry you, or have you see me in that light.
+	Even when you asked me to open up, I’d brush it off. I thought it would pass on its own if I just kept going. But it didn’t; it lingered, showing up when I should’ve been happy, making everything feel heavy.
+	If I’d been braver, I could’ve talked to someone. I could had seen a psychologist or a psychiatrist. I could’ve tried to work through those feelings instead of pushing them down.
+	But at the time, the idea of therapy felt so foreign, like something only people on the edge went for. I was so afraid of what others might say, even people we barely knew. And I kept telling myself it would pass on its own. But it didn’t, not really. It stayed, like a shadow, creeping into moments that should’ve been happy.
+	I wish I’d had the courage to seek help, to be more honest about the things I didn’t understand. It could’ve made me a better partner for you, a better friend. And I think maybe we would’ve had more good days, more days where I could’ve really been there with you, instead of lost in my own head.
 	# meaning from working through deep personal issues
 	set {values.meaning} += 15
 	# inner peace gained from emotional clarity
