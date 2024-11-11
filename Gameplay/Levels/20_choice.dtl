@@ -19,7 +19,7 @@ Player: I still regret that back then I didn’t travel or pursue my passions. I
 
 Player: I wish I had\:
 - Backpacked across several countries, taking temporary jobs.
-	set {choices.20_choice} += "travel"
+	set {choices.20_choice} = "travel"
 	Player: I should have just grabbed a backpack and go, with nothing but a few essentials and a heart full of curiosity.
 	Player: I imagine myself working in a little café in Paris, or maybe I’d sleep in a hostel in Cairo, surrounded by the hum of the city and the scent of spices in the market. I could have wandered the streets of Bangkok, sampling street food at every corner, while watching the world go by.
 	Player: I can almost picture it now. The days filled with endless possibilities.
@@ -48,7 +48,7 @@ Player: I wish I had\:
 	set {values.health} += -10
 
 - Pursued an artistic passion, like writing or painting.
-	set {choices.20_choice} += "artistic_passion"
+	set {choices.20_choice} = "artistic_passion"
 	Player: I could have dedicated those years to art, you know? Pouring myself into every brushstroke, each line of a story, as if they held pieces of me waiting to be uncovered.
 	I can almost picture it now—waking up with the sunrise, spending quiet mornings painting or scribbling, losing all track of time.
 	Can you imagine?
@@ -72,7 +72,7 @@ Player: I wish I had\:
 	set {values.health} += -5
 
 - Joined a volunteer organization and worked in underserved communities abroad.
-	set {choices.20_choice} += "volunteer"
+	set {choices.20_choice} = "volunteer"
 	Player: I wonder what would have happened if I had joined a volunteer organization, packed up, and left home to work in communities that needed a helping hand.
 	Spending my days building houses or teaching in some small school. You know how much I love kids.
 	Maybe I’d have been welcomed into a remote village in the hills of Nepal, learning their language bit by bit, and being met each morning by the children’s laughter as they ran down dusty paths toward school.
@@ -106,7 +106,7 @@ If only I’d let myself go for it when I still had the chance.
 
 If only I had\:
 - Pursued an ambitious and high-pressure job at a prestigious company.
-	set {choices.20_choice} += "work"
+	set {choices.20_choice} = "work"
 	Player: You know, I sometimes wonder what life would’ve been like if I’d gone after one of those ambitious, high-pressure jobs back in the fifties.
 	I can picture it. Me, young and driven, in a pressed suit and polished shoes, carrying a briefcase and ready to prove myself. I’d be that determined young man, putting in long hours by the glow of a desk lamp, running on coffee and dreams.
 	Can you imagine? Maybe I’d have started as an assistant or an errand boy, working my way up through grit and long hours, grabbing any opportunity they threw my way.
@@ -132,7 +132,7 @@ If only I had\:
 
 
 - Enrolled in a rigorous graduate program to fast-track your career path.
-	set {choices.20_choice} += "studies"
+	set {choices.20_choice} = "studies"
 	Player: You know, love, I've been thinking about how things might have turned out differently if I’d thrown myself into my studies back then, if I’d pushed harder to follow the academic path.
 	I could’ve spent all those years in classrooms, working through textbooks and research, trying to master every detail, all the while focused on building a career, proving I was good enough.
 	And maybe I would have had the credentials, the prestige, the recognition I thought mattered.
@@ -155,7 +155,7 @@ If only I had\:
 
 
 - Started my own business or side project that aligned with my career goals.
-	set {choices.20_choice} += "entrepreneur"
+	set {choices.20_choice} = "entrepreneur"
 	Player: You know what keeps coming back to me lately? I can see it so clearly... That repair shop I could have started back then, when I was in my twenties.
 	I had those tools from my time in the service, and everyone in the neighborhood needed someone who could fix things.
 	I can almost feel what those early mornings would have been like - opening up shop at dawn in that empty storefront downtown, the one next to the pharmacy. Would've been like that shop owner who started with just a workbench and ended up with the biggest store in town. Started at my age too.
@@ -187,7 +187,7 @@ And you - you kept trying to get me to join you for those weekend trips. I can i
 
 I wish I could\:
 - Reconnected with old friends and made a commitment to strengthen relationships.
-	set {choices.20_choice} += "friendship"
+	set {choices.20_choice} = "friendship"
 	Player: You know what I keep thinking about lately? I can see it so clearly... Those friendships from school that I could have kept alive when I was in my twenties.
 	I remember finding those old class photos in a drawer, all those familiar faces. I kept telling myself I'd write letters, make those phone calls. But there was always tomorrow, always next week.
 	I can almost feel what those reunions could have been like - gathering at someone's home, sharing stories about our first jobs, our new lives.
@@ -211,7 +211,7 @@ I wish I could\:
 
 
 - Committed to a long-term romantic relationship, with plans to build a future together.
-	set {choices.20_choice} += "romance"
+	set {choices.20_choice} = "romance"
 	Player: You know what I keep thinking about lately? I can see it so clearly... The life we could have built together back then, when we were in our twenties.
 	I remember those moments when our hands would brush accidentally, those long walks home where neither of us wanted to say goodbye. But I was always rushing somewhere else, always chasing the next thing.
 	I can almost feel what our home would have been like. That little house you used to dream about, with a small garden that I could have made it my own. Would've been like that couple down the street who grew old in the same house where they started, their love deepening with every passing season.
@@ -234,7 +234,7 @@ I wish I could\:
 
 
 - Actively sought out a mentor or joined a community with shared values.
-	set {choices.20_choice} += "mentor"
+	set {choices.20_choice} = "mentor"
 	Player: You know what I keep thinking about lately? I can see it so clearly... That community center downtown I could have joined when I was in my twenties.
 	I remember walking past it every evening, seeing people gathering there, sharing ideas, supporting each other. I'd slow down sometimes, hearing the laughter and discussions through the open windows.
 	I can almost feel what those evenings could have been like, sitting in those wooden chairs, learning from people who'd walked the path before me. Like that person from work who found their calling there, grew from student to teacher.

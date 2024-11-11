@@ -39,7 +39,7 @@ I didn’t pay attention to what my body was trying to tell me. How tired I used
 And, looking back, it wasn’t just the physical side I neglected.I thought I could keep the stress in check and just power through it all. But those moments of mental strain added up, like weights I didn’t even know I was carrying.
 I regret I didn't do anything about it. I could have:
 - Adopted a balanced lifestyle with regular exercise and mindfulness practices.
-	set {choices.20_choice} += "life_balance"
+	set {choices.40_choice} = "life_balance"
 	Player: I know now what a difference it could have made, taking time for the simple things.
 	Moving, breathing, letting my mind settle.
 	I should’ve found a way to make space for those small, steady habits. Even just a walk after dinner, like you always suggested, would’ve helped ease the weight of the day.
@@ -66,7 +66,7 @@ I regret I didn't do anything about it. I could have:
 	# no change to legacy
 	set {values.legacy} += 0
 - Sought out therapy or counseling to address underlying emotional issues.
-	set {choices.20_choice} += "therapy"
+	set {choices.40_choice} = "therapy"
 	Player: You know, looking back, I wish I’d had the courage to get help when I was struggling.
 	Back then, people didn’t talk about these things, not really. Admitting you were having a hard time felt like admitting something was deeply wrong with you.
 	I was afraid people would start looking at me differently, whispering that I’d lost my mind or that I was, you know, weak. I didn’t want anyone thinking I couldn’t handle my own life.
@@ -103,7 +103,7 @@ Maybe, if I’d had the courage to set boundaries with them, I would’ve had mo
 I thought that holding on, keeping the peace, was what was expected of me. But looking back, I realize that every time I put others’ needs before my own, I was drifting a little further from who I really was.
 I wish I'd:
 - Prioritized my unique dreams, ambitions and beliefs regardless of what others thought.
-	set {choices.20_choice} += "follow_dreams"
+	set {choices.40_choice} = "follow_dreams"
 	Player: You know, I look back now, and I wish I’d had the courage to live in a way that felt true to me, even if it didn’t always align with what everyone else expected.
 	There were dreams, ideas, parts of myself I kept hidden because I thought they’d seem foolish, or because I worried they might hurt the people I loved.
 	I remember a time when I wanted to pick up the guitar, to really learn, maybe even play in some club one day.
@@ -134,7 +134,7 @@ I wish I'd:
 	set {values.legacy} += 5
 
 - Set boundaries with toxic people, including family members, to protect my well-being.
-	set {choices.20_choice} += "boundaries"
+	set {choices.40_choice} = "boundaries"
 	Player: You remember how it was back then - every family gathering felt like walking on eggshells.
 	How many Sunday dinners did I sit through, biting my tongue, watching the clock?
 	I can see now what could have been different. I could have stood up that time at the dinner table, when they were criticizing my choice to take a lower-paying job that actually meant something to me.
