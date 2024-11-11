@@ -1,10 +1,34 @@
 if {reached_the_end} == false:
 # Average health on 60s is between 50 and 30
 	set {values.health} -= 20
-	
-
+	Talking about my regrets, the things I wish I’d done differently... 
+	[sound path="res://assets/sounds/wheezing02.ogg" volume="0.0" bus="SFX"]
+	set {values.health} -= 30
+	Player: [wheezing] [ns=3.0!]
+	set {values.health} += 30	
+	It’s hard.
+	But in a way, it feels good too. Like a weight lifting, you know.
+	I just want you to know that, even with all those regrets, there’s so much I wouldn’t trade for anything. Especially the memories we’ve made together.
+	Remember that summer we took off in the campervan and wandered through Slovenia and Croatia? Just the two of us, a couple of maps, and a cooler full of snacks—heading out without much of a plan, just a sense of adventure. That whole trip was…
+	Magic
+	I think back to those quiet mornings, parked by a lake or overlooking the sea, with nowhere to be except right there with you.
+	I’ll never forget that morning at Lake Bled. We woke up so early, eager to see the sunrise. You made me us hot chocolate, even though you always drank coffee in the morning. You know I am much of a coffee drinker, so your hot chocolate always warms my heart.
+	 That day we ended up rowing out to that little island before anyone else was awake. You were laughing the whole way because I couldn’t get the rowing right, zig-zagging across the lake.
+	# TODO: Add laught sound
+	[Laughter]
+	I was so clumsy that you started worrying we might capsize.
+	[Big laughter]
+	You should have seen your face.
+	[small laughter fading]
+	And then finally reaching the island, just the two of us, with that mist hanging over the water. We sat there in the quiet, sipping our hot chocolate, looking at the church and the mountains, feeling like we’d discovered something hidden and precious.
+	And in Piran, remember that evening we climbed up to the old town walls just as the sun was setting? We found a little spot to sit together, with that perfect view out over the sea. You had that old postcard that inspired the whole trip, and we were trying to match it to the view, debating which little street corner or tower was which. We didn’t even need to talk much; we just watched as the colors of the sky deepened, with that warm breeze coming off the water, feeling like we belonged to that place, to that moment.
+	Those quiet moments, those small, perfect scenes—they’re some of the memories I cherish the most. 
+	Those precious moments remind me of how fleeting time really is.
+	It’s funny, looking back on all the small, beautiful memories we made together, I realize how much I sometimes held back.
+	There were so many moments I could’ve just told you how much you meant to me, how grateful I was. But I’d worry—overthink, get caught up in whether it was the ‘right time’ or if I’d say it ‘right.’
+	Looking back, I see how much time I spent holding in things I should’ve just shared, and how often I let little worries take up space where love and honesty should’ve been."
 	Player: TBD
-Player: I now contemplate my late life.
+Player: I regret...
 - Putting off saying how you feel
 	jump express_feelings
 - Spending too much time worrying
