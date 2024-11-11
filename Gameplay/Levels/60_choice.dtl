@@ -25,10 +25,10 @@ if {reached_the_end} == false:
 	Those precious moments remind me of how fleeting time really is.
 	It’s funny, looking back on all the small, beautiful memories we made together, I realize how much I sometimes held back.
 	There were so many moments I could’ve just told you how much you meant to me, how grateful I was. But I’d worry—overthink, get caught up in whether it was the ‘right time’ or if I’d say it ‘right.’
-	Looking back, I see how much time I spent holding in things I should’ve just shared, and how often I let little worries take up space where love and honesty should’ve been."
+	Looking back, I see how much time I spent holding in things I should’ve just shared, and how often I let little worries take up space where love and honesty should’ve been.
 
 Player: I regret...
-- Putting off saying how you feel
+- Putting off saying how I feel
 	jump express_feelings
 - Spending too much time worrying
 	jump worries
