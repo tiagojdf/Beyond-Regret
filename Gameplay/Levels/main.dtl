@@ -25,39 +25,166 @@ But, you know, I'd also be someone else, wouldn’t I? Someone who might not hav
 And while there’s a part of me that wishes I could go back and change things, I also know that each choice, for better or worse, led me here—right here with you.
 #asshole
 if {choices.40_choice} == "follow_dreams" && {choices.60_choice} == "worries":
-	I would be an asshole for focusing too much on myself and my dreams and not worrying about others or anything else.
+	Had I spent my life chasing dreams and brushing off all the things I used to worry about, I wonder if I’d have become a different kind of person.
+	Maybe a version of myself too caught up in chasing after my own ideas to see what was right in front of me. I could’ve become so focused on what I wanted that I’d lose sight of everyone and everything else that truly mattered.
+	I’ve known people like that, haven’t you? People so absorbed in their own lives that they forget the people around them.
+	I can imagine it: maybe I’d have moved from one big goal to the next, barely stopping to ask you about your day, to listen when you needed me.
+	I might’ve convinced myself that I was doing it for ‘us’ somehow—pursuing those dreams and ambitions.
+	But, truthfully, I might’ve ended up just chasing after something for the sake of my own pride, forgetting how to be here, to show up for the people I love.
+	Maybe I would’ve missed so much more that way, letting it all pass by in a rush of what I thought was important at the time.
+	I’ve seen it happen to people who push too hard, thinking that happiness is just the next promotion or achievement away.
+	They forget to look around, to really see who’s with them on this journey, to give time to others.
+	And if I’d been that way, I’d never have gotten the chance to share those quiet dinners with you or make time for the simple things like helping a friend or spending a lazy afternoon in the sun.
+	So, while I have my regrets, I wouldn’t trade the life we built, the people we loved, and all the small, ordinary moments we shared. At the end of it all, those were the things that truly filled my life with meaning.
 #burnout
 elif  ({choices.20_choice} == "work" || {choices.20_choice} == "studies" || {choices.20_choice} == "entrepreneur") && ({choices.40_choice} == "boundaries" || {choices.40_choice} == "follow_dreams"):
-	Dedicating my twenties to a job, studies or starting my own business and doubling down on them might lead me to burnout.
+	Earlier I told you how I should have focused on my career and follow my dreams, But if I’d poured every ounce of myself into my career, if I’d let it consume me the way I thought it should, I don’t know where I’d be right now.
+	Sure, maybe I’d have climbed higher, achieved more, or made more money, but I think I’d also be worn down and worn out.
+	I've seen people who chased success so hard that they forgot to stop and take a breath, to live beyond their work. Some of them didn’t even realize what it cost them until it was too late, until the stress had taken a toll on their bodies or the time had slipped by.
+	Honestly, I came close a few times myself. Remember those years when I was always pushing for the next goal? I’d stay late at work, take calls over dinner, bring files home on weekends.
+	I was so focused that I’d forget to take care of myself or even take a proper break. And there were nights when I’d feel it—the fatigue, the strain of too much all at once.
+	But you’d gently remind me to take a breath, to look up and see what else mattered.
+	If I’d never slowed down, I can only imagine what it would’ve cost us.
+	I might’ve burned myself out and missed out on the time we had, the quiet mornings or those spontaneous little adventures we’d take. I would’ve lost the chance to savor the life we built together.
+	Looking back, I know that work was just a part of my life. It was meaningful, yes, but only because it supported the life I had outside of it—our life.
+	So while I sometimes wonder what else I could’ve achieved if I’d pushed harder, I’m grateful I didn’t lose myself in the process.
+	Because, in the end, it’s not the work or the titles I think of now. It’s you, this life we shared, and the moments I’ll carry with me forever.
 # Divorce
 elif {choices.20_choice} == "romance" && {choices.40_choice} != "life_balance":
-	Had we gone all in on our relationship too soon, without living our lives and not trying to achieve a balance, maybe we wouldn't be together anymore.
+	If I’d given myself over to romance completely like I was saying before, but without striking a balance with everything else in life—work, friendships, time to grow on my own—who knows where we’d be today
+	 We both needed that time and space to become our own people before fully building this life together. It’s funny to think about now, but maybe without that balance, we might not have lasted.
+	I could’ve leaned too much on you to fill every need, or maybe we’d have gotten caught up in expectations instead of just letting things grow naturally between us.
+	Remember those years when we each had our own worlds?
+	You were out exploring your passions, and I was finding my way too. I sometimes worried we’d drift apart, but looking back, I see that space made us stronger.
+	It meant that when we came back together, we brought fresh energy, stories, and new sides of ourselves. I think it kept us discovering each other over and over again, never getting too comfortable or stuck.
+	If I’d rushed it or tried to hold too tight, we might have lost that spark, that feeling of choice.
+	Instead, we got to choose each other again and again, and that made all the difference.
+	So, yes, maybe we could’ve been more devoted earlier on, but I’m glad we grew at our own time. That’s part of what brought us here today, still side by side, sharing all these memories.
+	In the end, balance gave us strength, and I wouldn’t trade that for anything.
 # self-sacrificing friend/empath
 elif ({choices.20_choice} == "friendship" || {choices.20_choice} == "volunteer") && {choices.40_choice} != "boundaries":
-	Loss of Personal Identity. Sense of Self Tied to Helping Others. Dependency on External Validation. Emotional Vulnerability and Over-Investment
+	I regret not having invested more of mysekf in friendships and helping others. There were times I’d think to myself, What if I’d been a little more giving? A little more open?
+	Maybe I would have been a better friend, maybe even felt more fulfilled. But on second thought, I wonder if that might’ve come at a different kind of cost.
+	I think about it now and realize that if I’d spent too much of myself on others, maybe I would have lost pieces of myself along the way.
+	I see now how easy it can be to give so much that you forget your own needs, your own dreams.
+	There’s a fine line between caring for others and making yourself responsible for their happiness. 
+	And I can see now that if I’d crossed that line, I might have started to rely too much on the approval or acceptance of others, forgetting to be enough for myself. Always saying yes, not knowing how to say no.
+	You remember when I’d say things like, ‘I should catch up with old friends,’ or ‘Maybe it’s time to get involved with that neighborhood project.’?
+	I’d picture myself signing up, making the calls, planning meet-ups. But then something would come up, and I’d end up choosing my own time or following through on my own plans instead.
+	If I’d said yes to everything, I might have stretched myself thin, caught up in everyone else’s needs, maybe even lost sight of what mattered most to me, to us.
+	I’d sometimes feel guilty for saying no, but looking at it now, I think I was protecting something important—holding onto my sense of self and staying focused on what I needed.	
+	Maybe it wasn’t always the right choice, but it kept me grounded, kept me whole in a way that’s easy to lose.
+	If I’d put everyone else first, I might’ve ended up losing track of myself, always worrying about whether I’d done enough for everyone else.
+	It’s funny, the very regrets I carried about not being more giving might’ve turned into a different set of regrets if I’d gone the other way.
+	And maybe, just maybe, I’d be here now wondering why I never spent enough time with myself, with you, or on what mattered to us.
+	So, looking back, I realize it’s all about balance, about finding room for others without losing yourself.
+	I didn’t always get it perfect. But now, I see that there’s a kind of grace in finding that balance.
+	And in a strange way, not going too far one way or the other—that helped me become who I am, right here, with you.
 # underachiever
 elif ({choices.40_choice} == "life_balance" || {choices.40_choice} == "therapy") && {choices.60_choice} == "worries":
 	underachiever
-# Gate keeper
-elif {choices.20_choice} == "mentor" && {choices.60_choice} != "express_feelings":
-	I sought guidance and community, but never put in the effort to be vulnerable and express myself. I became good at receiving wisdom but couldn't share my own inner world.
+	I know I should have founded a better balance, that if I’d been able to let go of my worries, or even gone to therapy when it mattered most I would be better of. There were days I’d think, What if I’d just learned to ease up on myself? Maybe I’d have felt lighter, happier, more at peace. And yet... I wonder if a more contented version of me would’ve lost some of that restless energy, that urge to push harder, to be more, to reach for more than I thought I could handle.
+	If I’d been too at ease, maybe I would’ve never found the grit to push myself the way I did. Remember when I decided to run that marathon?
+	I knew it was going to take months of training, day after day, no matter the weather or how tired I felt. So many times, I thought about quitting—telling myself I didn’t need to prove anything.
+	But I kept lacing up my shoes, committing to each kilometer, pushing through every early morning and sore muscle for almost a year.
+	Looking back, I think the same restlessness I tried to escape gave me that drive to keep going, to test my own limits and see just what I was capable of.
+	It’s strange to think that what I often saw as flaws—my endless questions, my second-guessing, my drive to do better—might’ve been the things that kept me moving forward.
+	If I’d spent my life at ease, I might’ve missed out on the challenges that shaped me, the struggles that taught me what I was capable of and who I could become.
+	I see it now—balance isn’t about erasing the tough parts of yourself, but learning to let them guide you when they need to, and soften when they don’t.
+	I didn’t always get it right, but maybe that’s okay.
+	It’s that mix, those imperfections, that brought me to you, to the life we made. And somehow, all of that kept me grounded enough to stay right here, fully present with you."
 # bystander
-elif {choices.40_choice} == "therapy" && {choices.60_choice} != "express_feelings":
-	understands themselves deeply but struggles to translate that self-awareness into action
+elif {choices.40_choice} == "therapy" && {choices.60_choice} == "worries":
+	Maybe if I’d focused on therapy, I might have found a deeper understanding of myself, a better way to untangle those knots of worry.
+	I imagine I could’ve unpacked it all—the fears, the doubts—bit by bit, and maybe come to some peace with it.
+	But then I wonder… Had I also learned to let go of my worries, would I really have changed the way I acted day to day?
+	My worries, even though they weighed me down at times, also kept me moving forward, kept me reaching for more.
+	Without them, I might’ve understood myself deeply, but struggled to push that understanding into real actions, real change.
+	 Would all that self-awareness have given me the courage to live differently, or would I have just ended up circling those thoughts, too?
+	And you know how it is for me; I always had a habit of holding back until I felt ready.
+	If I’d stopped worrying entirely, maybe I’d never have gone for those things that scared me a little—like that first time I worked up the nerve to walk over and talk to you, even though I felt so unsure.
+	I remember thinking, 'What if this feeling is just a fantasy? What if I never see you again?' But those worries are what got me moving, making me reach out to you and taking those small risks until we finally ended up together.
+	So now, looking back, I realize those doubts and fears nudged me forward in their own way, shaping this life I’ve had.
+	If I’d tried to live without them, maybe I’d have known myself well, but I might have ended up missing out on what I was truly capable of."
 # idealistic dreamer
 elif {choices.20_choice} == "artistic_passion" && {choices.60_choice} == "express_feelings":
-	idealistic dreamer. Romanticizing Life and Avoiding Reality
-# isolation
-elif {choices.60_choice} == "worries":
-	Not pursuing expressing feelings lead to isolation
+	Sometimes I wonder what might’ve happened if I'd chased those artistic dreams fully, throwing myself into painting or writing without a second thought.
+	And if I’d been completely open with everyone I cared about, spilling my heart out at every turn.
+	Maybe I would’ve felt a sense of fulfillment, sure—deep satisfaction in knowing I’d said what was on my mind, that I’d lived life creatively, free from hesitation.
+	But then I think, would I have gone too far, getting lost in those dreams?
+	If I'd spent all my time and energy on expressing every feeling and crafting every thought, maybe I would’ve become…well, a little detached from reality.
+	Can you picture it?
+	Spending hours lost in painting the ‘perfect’ sunset while I could have just enjoyed that sunset by your side. Or maybe, by sharing everything in my heart, I’d have worn it too raw, leaving myself open, vulnerable, and maybe even isolated.
+	There’s a certain risk in always seeking the most vivid moments, the grandest gestures, or the most romanticized ideas of life.
+	It’s easy to fall into that mindset, to idealize things and forget that most of life is in the in-between spaces, in the routines and the quiet moments.
+	If I’d followed those passions with every ounce of myself, I might’ve found myself constantly restless, always chasing the next ‘perfect’ feeling, always looking for inspiration but never quite finding contentment.
+	And if I had, I wonder if I’d be here now, able to sit with you in this stillness, appreciating the simple, everyday things we shared.
+	I realize now, it’s one thing to dream, but it’s another to stay grounded. And maybe in holding back just a little, I kept myself close to what was real, what really mattered.
+	So, looking back, I see now that my life balanced the dreams with the reality, and that groundedness helped me hold on to the people I loved, to you, through all these years.
+	Maybe I didn’t create masterpieces or speak every feeling aloud, but I lived a life that feels full, and that’s enough for me now.
 # Soul-searching
 elif {choices.20_choice} == "work" || {choices.20_choice} != "entrepreneur":
-	Soul-Searching. lack of deeper meaning, self-expression, and the neglect of personal passions or hobbies.  focus on professional achievements but also highlights the potential internal struggle or longing for deeper meaning. Professionally Complete, Personally Incomplete. while their professional life is balanced and successful, they may feel incomplete in their personal or creative pursuits, missing out on a broader sense of self-expression and fulfillment.
+	Sometimes I think about what life would have been like if I'd really chased a career, or even started my own business.
+	There were times I’d wonder, What if I’d put all my energy into building something big, something with my name on it?
+	Maybe I’d have become someone respected in some field, or achieved things that would’ve made people say, Look at what they built, what they accomplished.
+	But then I wonder if, along the way, I might have lost something…
+	Something quieter but maybe more important.
+	I think of all the small, creative things that filled my days—writing little poems, tinkering in the garden, taking the time to make something with my hands just for the joy of it.
+	You know how I loved to spend hours just painting, or how I’d sit outside watching the sunset, sketchbook in hand.
+	If I’d been running a business or climbing some ladder, would I have had time for those things?
+	Would I have known myself as well, felt as grounded, or found that simple joy in the things that never made me a cent?
+	There’s a part of me that still wishes I could’ve done both, had a career and kept up those quiet passions.
+	But the more I think about it, the more I see that in focusing on those creative, personal parts of life, I kept a different kind of balance.
+	A life without the kind of professional accomplishments that others might look up to, maybe—but a life that felt real and true to me. I’m not sure I’d have found that same peace if I’d put my all into work or tried to prove myself out there.
+	In the end, I think that choice kept me connected to what mattered.
+	I didn’t end up with awards or titles, but I look back now and see how much I got from following what felt meaningful, even if it was just for me.
+	And looking at you now, I think I made the right choice, finding the space to be present, to share these small, meaningful moments that mean more than any title ever could.
 #Uprooted
 elif {choices.20_choice} == "travel":
-	I became so good at meaningful but temporary connections that I struggled to build lasting roots anywhere. Uprooted
+	Sometimes, I wonder what life might have been like if I’d traveled more.
+	I used to imagine it so vividly—exploring all those places I’d only read about. I’d picture myself wandering through crowded markets in Marrakech, or standing in awe under the Northern Lights in Norway.
+	There was something in me that always wanted to see it all, to meet people from every walk of life, and to feel a part of something bigger, something beyond the familiar.
+	But then I think about what I might have lost. If I’d spent more time moving from one place to the next, I wonder if I’d have ended up feeling unrooted, never fully belonging anywhere.
+	Maybe I’d have become good at those deep, yet fleeting, connections—sharing a meal with someone on a mountainside or swapping stories on a long train ride.
+	Those are beautiful moments, but they’re also so temporary.
+	Each goodbye would have been its own little heartbreak, leaving pieces of myself scattered in places I might never return to.
+	And I can’t help but think that in all that movement, maybe I’d have missed out on something more lasting, like what I found here, with you.
+	Instead of the rush of constantly seeing new places, I had the chance to create a home—a real, steady place where we shared years, not just hours.
+	We built a life together, where I could be there not just for the exciting moments, but for the quiet, everyday ones too.
+	I had the chance to really be here, to put down roots and to hold onto what matters.
+	In the end, I think I found something I couldn’t have had by always moving on. There’s a richness in these memories we’ve made, in this life we built.
+	And maybe, just maybe, choosing not to wander too far is what allowed me to feel truly connected, right here, with you.
+# isolation
+elif {choices.40_choice} == "boundaries" && {choices.60_choice} != "express_feelings":
+	I used to wish I’d been better at setting boundaries—at knowing when to say ‘no’ or when to stand my ground. So many times, I’d give in, bending to what everyone else wanted, even when I was worn out or had nothing left to give.
+	And, sure, sometimes I regretted it; I’d feel like I was losing pieces of myself, like I was fading into the background of my own life.
+	But then I think, if I’d kept those boundaries up too firmly, I might have ended up alone, walled off from the people I care about.
+	You know I was never great at expressing what was on my mind; I’d hold it all in, hoping others would somehow understand.
+	If I’d put up walls without knowing how to reach over them, how to let others in…well, I might’ve become distant, closed off. Maybe even a little bitter.
+	Like that time when I was already worn out, but I still agreed to help you with moving out of your parents.
+	I remember thinking I should’ve said no—I was so tired, but I didn’t want to let you down. And in the end, I’m glad I went.
+	There was something about the way we worked together, laughing through the chaos, that made the whole thing feel lighter. It wasn’t just about moving boxes; it was about sharing a moment, side by side, when we both needed a little support.
+	Looking back now, I realize how much that small act brought us closer, how it deepened our bond. Sure, I could have said no, but I think that decision, even though it drained me, really helped strengthen our relationship in ways I couldn’t have predicted.
+	So, looking back, I realize that my imperfect choices, those moments when I gave too much or stayed quiet, they kept me connected in ways I might not have managed otherwise. In being a little open, a little too willing, I got to hold onto something real with you.
+	And maybe that’s what matters most—not getting it perfect, but holding onto each other, even in the mess of it all.
 else:
-	Generic
+	You know, all these years, the words 'I love you' would get stuck somewhere between my heart and my lips.
+	Remember that morning thirty years ago, when you brought me hot chocolate just the way I liked it—extra marshmallows melting on top, with that hint of cinnamon you always added?
+	I wanted to tell you then how much that meant to me, how those small gestures made my whole world brighter. Instead, I just smiled and squeezed your hand.
+	Or that autumn evening when I was fretting over the garden's first frost, and you spent hours helping me bring in all the plants, carefully arranging them by the windows?
+	You made those extra-large labels with your beautiful handwriting because you knew how I was always misplacing my glasses and squinting at the tiny print.
+	I should have told you then how your patience and thoughtfulness made my heart swell, how you turned a moment of worry into a memory I'd treasure forever.
+	Looking back, I realize how every choice, even the missteps, shaped who I became. If I'd done things differently—if I'd let go of those worries sooner or spoken up when I held back—maybe I'd have fewer regrets.
+	I'd probably feel lighter, maybe even happier. But, you know, I'd also be someone else, wouldn't I? Someone who might not have learned the hard way to cherish these moments, to see what really matters.
+	And while there's a part of me that wishes I could go back and change things, I also know that each choice, for better or worse, led me here—right here with you.
+	So let me say it now, clearly and completely: I love you.
+	I've loved you in the morning light and in the evening shadows, in our moments of joy and our times of struggle.
+	I love how you know exactly when to hold my hand and when to give me space, how you remember every story I've ever told you, even the ones I've forgotten.
+	I might not have said it enough over the years, but I hope you felt it in the quiet moments we shared.
+	In how I'd smile at your familiar jokes even after hearing them a hundred times, in how I treasured every note you wrote me, keeping them safe in that old tin box.
+	Each gesture was my way of saying what I struggled to voice.
+	And now, here at the end, I find myself wishing I had a thousand more chances to say it, but also knowing that you understood all along.
+	Because that's who you are—someone who could read the love in my silence and who loved me not despite my struggles to express it, but somehow, beautifully, because of them.
 
 - I still regret what I didn't do when I was in my twenties (Go back)
 	jump 20_choice/
@@ -69,5 +196,17 @@ else:
 	jump quit
 
 label quit
-Player: TBD (Thanking for listening to him and showing gratitute)
+Player: I'm getting a bit tired now...
+But thank you for sitting with me today, for listening to all my rambling thoughts.
+Would you...
+Would you come back tomorrow?
+These talks with you... they mean everything.
+And maybe tomorrow I'll remember that story about the summer fair I was trying to tell you earlier—the one with the balloon artist. 
+# [stifling a small yawn]
+My memory isn't what it used to be, but with you here, the good times seem clearer somehow.
+# [reaching for their hand one more time]
+Until tomorrow then? And... thank you.
+For everything.
+For today.
+For always.
 [end_timeline]
