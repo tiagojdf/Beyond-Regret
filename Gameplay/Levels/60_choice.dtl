@@ -35,23 +35,44 @@ Player: I regret...
 
 label express_feelings
 set {choices.60_choice} = "express_feelings"
-Player: Often, a big regret is not expressing love frequently enough
-How many “I love yous” and “I’m sorrys” should we say but don’t? We should never fail to tell our loved ones that we love them. They’re important words. Moreover, when we don’t say them, we become bitter.
+Player: I really regret putting off saying how I feel.
+When I think about it now, it’s those simple words—the ‘I love yous,’ the ‘I’m sorrys’—that I wish I’d said more, without holding back, without waiting for some ‘perfect’ moment.
+They’re such important words, but sometimes it felt easier to let them sit in my chest instead of letting them out.
+There were times when I thought it was obvious, that you already knew.
+Like that time we had that big argument over... something silly, really. I can’t even remember what it was about now.
+We sat at the table in silence afterward, and I wanted to reach over, take your hand, and tell you how much I loved you.
+I wanted to say sorry, to just close the space between us.
+But pride or stubbornness got in the way, and I thought maybe it would be better to wait, to let things cool off first.
+But now I wonder, how many times did I let moments like that pass by, all because I didn’t say what was on my heart?
+And when you surprised me for my birthday, setting up that little picnic on the hill just behind our house... 
+I remember standing there, trying to hold back tears, feeling so grateful, so loved.
+I wanted to tell you right then how much you meant to me. But I thought, ‘Oh, I’ll tell you later, over dinner, or later that night.’
+But later came, and I never really got around to saying it the way I felt it.
+I guess I thought there’d always be time, you know?
+But now, looking back, I see how many of those ‘laters’ I let slip by. And those unsaid words, they start to weigh on you.
+They turn into this heavy feeling, a kind of bitterness, like missed opportunities to make you feel just how much I loved you.
+If there’s anything I could do differently, it’d be to say it all a little more, to be braver about those words.
+So, thank you for being here, for staying by my side even when I was too quiet about what mattered
+And I hope you know, really know, how much I love you. I don’t want there to be any more words left unsaid.
 
-
-jump main/End game
+jump main/ending
 
 label worries
 set {choices.60_choice} = "worries"
-Player: Those bad decisions and missed chances still haunt you, don’t they? Whether it’s a career you regret or a relationship you couldn’t fix, it feels like you can’t move on. But here’s the thing\: almost everyone in their 60s carries some form of regret, and it’s a heavy burden only if you let it be.
-
-To shift this mindset, practice self-compassion. Make peace with your past by focusing on what you’ve learned from those experiences. Consider journaling or therapy as ways to unpack and release those lingering feelings of guilt or failure.
-
-Instead of worrying, prepare.
-
-Excessive worries limit our existence and take away our opportunities for growth. When we look closely, much of what worries us will never happen. By getting lost in these anguishing mental labyrinths, we show contempt for the beauty of the present.
-
-stress and worry prevented them from having a more relaxed and focused life
-
+Player: I regret all the time I spent worrying—so much wasted energy on things that never even happened. And yet, I clung to those worries like they were truths, letting them weigh me down.
+I see now how they kept me from just relaxing, from being fully present with you and the people I loved.
+t’s like those times we’d go out for dinner, and I’d be half-listening, my mind drifting off to work, bills, or some little thing I’d said or done that I was sure had been taken the wrong way.
+I’d miss half of what you said because I’d be lost in my own mind, overthinking everything.
+It sounds silly now, but back then, those worries felt real, urgent. I’d tell myself, ‘I’m just being responsible,’ but really, I was missing out on the beautiful, everyday moments we had.
+Do you remember our anniversary dinner, years ago?
+You surprised me, by taking me to that cozy little place with the garden lights and a view of the river. There was a live band and they started playing our song.
+Immediately, you asked me to dance. I should’ve just let go and enjoyed that night with you, but instead, I kept worrying that I might be too old, that I might make a fool out of myself.
+And you noticed—you always did.
+You’d reach for my hand and squeeze it, pulling me back to the present. And I’d try, but I know now I let worry take too much space in my mind.
+I wish I’d known then what I know now.
+That all that worry only steals time and energy. Half of it never came to pass, and the rest, I could’ve handled even without all that fretting.
+If I could do it over, I’d remind myself that being present, right there with you, was worth far more than all those endless ‘what ifs.’
+Life really is too short to be spent tangled up in worries.
+I wish I’d understood that sooner, to just let the present unfold, to focus on what was right in front of me instead of all the things I thought I needed to control.
 
 jump main/ending

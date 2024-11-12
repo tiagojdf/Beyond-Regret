@@ -19,13 +19,43 @@ jump 20_choice/
 
 label ending
 set {reached_the_end} = true
-TBD
+Looking back, I realize how every choice, even the missteps, shaped who I became.
+If I'd done things differently—if I’d let go of those worries sooner or spoken up when I held back—maybe I’d have fewer regrets. I’d probably feel lighter, maybe even happier.
+But, you know, I'd also be someone else, wouldn’t I? Someone who might not have learned the hard way to cherish these moments, to see what really matters.
+And while there’s a part of me that wishes I could go back and change things, I also know that each choice, for better or worse, led me here—right here with you.
+#asshole
 if {choices.40_choice} == "follow_dreams" && {choices.60_choice} == "worries":
 	I would be an asshole for focusing too much on myself and my dreams and not worrying about others or anything else.
+#burnout
 elif  ({choices.20_choice} == "work" || {choices.20_choice} == "studies" || {choices.20_choice} == "entrepreneur") && ({choices.40_choice} == "boundaries" || {choices.40_choice} == "follow_dreams"):
-	Burnout
+	Dedicating my twenties to a job, studies or starting my own business and doubling down on them might lead me to burnout.
+# Divorce
 elif {choices.20_choice} == "romance" && {choices.40_choice} != "life_balance":
-	Divorce because our love life started to soon
+	Had we gone all in on our relationship too soon, without living our lives and not trying to achieve a balance, maybe we wouldn't be together anymore.
+# self-sacrificing friend/empath
+elif ({choices.20_choice} == "friendship" || {choices.20_choice} == "volunteer") && {choices.40_choice} != "boundaries":
+	Loss of Personal Identity. Sense of Self Tied to Helping Others. Dependency on External Validation. Emotional Vulnerability and Over-Investment
+# underachiever
+elif ({choices.40_choice} == "life_balance" || {choices.40_choice} == "therapy") && {choices.60_choice} == "worries":
+	underachiever
+# Gate keeper
+elif {choices.20_choice} == "mentor" && {choices.60_choice} != "express_feelings":
+	I sought guidance and community, but never put in the effort to be vulnerable and express myself. I became good at receiving wisdom but couldn't share my own inner world.
+# bystander
+elif {choices.40_choice} == "therapy" && {choices.60_choice} != "express_feelings":
+	understands themselves deeply but struggles to translate that self-awareness into action
+# idealistic dreamer
+elif {choices.20_choice} == "artistic_passion" && {choices.60_choice} == "express_feelings":
+	idealistic dreamer. Romanticizing Life and Avoiding Reality
+# isolation
+elif {choices.60_choice} == "worries":
+	Not pursuing expressing feelings lead to isolation
+# Soul-searching
+elif {choices.20_choice} == "work" || {choices.20_choice} != "entrepreneur":
+	Soul-Searching. lack of deeper meaning, self-expression, and the neglect of personal passions or hobbies.  focus on professional achievements but also highlights the potential internal struggle or longing for deeper meaning. Professionally Complete, Personally Incomplete. while their professional life is balanced and successful, they may feel incomplete in their personal or creative pursuits, missing out on a broader sense of self-expression and fulfillment.
+#Uprooted
+elif {choices.20_choice} == "travel":
+	I became so good at meaningful but temporary connections that I struggled to build lasting roots anywhere. Uprooted
 else:
 	Generic
 
