@@ -1,6 +1,7 @@
 if {reached_the_end} == false:
 	# Average health on 40s is between 70 and 50
 	set {values.health} -= 20
+	[signal arg_type="dict" arg="{"background":"bed"}"]
 	Player: You know, my love, even if I have some regrets, I realize how lucky I’ve been to have met you. All those moments we shared, big and small—they’re what made everything feel right, even when I was stumbling along my own path.
 	I still think about that night we painted the kitchen.
 	Remember?
@@ -27,6 +28,7 @@ if {reached_the_end} == false:
 	Maybe I would’ve told you sooner about the things I struggled with or the things that scared me.
 	I know you’d have understood. You always did.
 
+[signal arg_type="dict" arg="{"background":"bed"}"]
 Player: Thinking back on those years, I still regret that...
 - I didn’t take care of my physical and mental well-being.
 	jump self_care
@@ -40,6 +42,7 @@ And, looking back, it wasn’t just the physical side I neglected.I thought I co
 I regret I didn't do anything about it. I could have:
 - Adopted a balanced lifestyle with regular exercise and mindfulness practices.
 	set {choices.40_choice} = "life_balance"
+	[signal arg_type="dict" arg="{"background":"life_balance"}"]
 	Player: I know now what a difference it could have made, taking time for the simple things.
 	Moving, breathing, letting my mind settle.
 	I should’ve found a way to make space for those small, steady habits. Even just a walk after dinner, like you always suggested, would’ve helped ease the weight of the day.
@@ -55,18 +58,12 @@ I regret I didn't do anything about it. I could have:
 	And for the first time in a long time, I felt calm. I sat there, feeling so thankful for you, for how you’d held me through it all, never wavering.
 	In that quiet moment, I realized how much strength you’d given me, how you were the reason I found my way out; and it brought tears to my eyes.
 	I know I should’ve told you sooner, but thank you—for being there through all of it, even when I couldn’t see the way myself.
-	# added meaning through self-care and intentional living
-	set {values.meaning} += 10
-	# better inner peace from regular mindfulness and reduced stress
-	set {values.inner_peace} += 20
 	# health gains from consistent physical activity and stress relief
 	set {values.health} += 25
-	# modest fulfillment from balanced lifestyle
-	set {values.fulfillment} += 10
-	# no change to legacy
-	set {values.legacy} += 0
+
 - Sought out therapy or counseling to address underlying emotional issues.
 	set {choices.40_choice} = "therapy"
+	[signal arg_type="dict" arg="{"background":"therapy"}"]
 	Player: You know, looking back, I wish I’d had the courage to get help when I was struggling.
 	Back then, people didn’t talk about these things, not really. Admitting you were having a hard time felt like admitting something was deeply wrong with you.
 	I was afraid people would start looking at me differently, whispering that I’d lost my mind or that I was, you know, weak. I didn’t want anyone thinking I couldn’t handle my own life.
@@ -76,18 +73,8 @@ I regret I didn't do anything about it. I could have:
 	If I’d been braver, I could’ve talked to someone. I could had seen a psychologist or a psychiatrist. I could’ve tried to work through those feelings instead of pushing them down.
 	But at the time, the idea of therapy felt so foreign, like something only people on the edge went for. I was so afraid of what others might say, even people we barely knew. And I kept telling myself it would pass on its own. But it didn’t, not really. It stayed, like a shadow, creeping into moments that should’ve been happy.
 	I wish I’d had the courage to seek help, to be more honest about the things I didn’t understand. It could’ve made me a better partner for you, a better friend. And I think maybe we would’ve had more good days, more days where I could’ve really been there with you, instead of lost in my own head.
-	# meaning from working through deep personal issues
-	set {values.meaning} += 15
-	# inner peace gained from emotional clarity
-	set {values.inner_peace} += 25
-	# small improvement to connection through healthier relationships
-	set {values.connection} += 10
-	# positive health impact from mental well-being
+	# health gains from consistent physical activity and stress relief
 	set {values.health} += 15
-	# modest fulfillment from personal growth
-	set {values.fulfillment} += 10
-	# no change to legacy
-	set {values.legacy} += 0
 
 if {reached_the_end} == false:
 	jump 60_choice/
@@ -107,6 +94,7 @@ I thought that holding on, keeping the peace, was what was expected of me. But l
 I wish I'd:
 - Prioritized my unique dreams, ambitions and beliefs regardless of what others thought.
 	set {choices.40_choice} = "follow_dreams"
+	[signal arg_type="dict" arg="{"background":"follow_dreams"}"]
 	Player: You know, I look back now, and I wish I’d had the courage to live in a way that felt true to me, even if it didn’t always align with what everyone else expected.
 	There were dreams, ideas, parts of myself I kept hidden because I thought they’d seem foolish, or because I worried they might hurt the people I loved.
 	I remember a time when I wanted to pick up the guitar, to really learn, maybe even play in some club one day.
@@ -123,21 +111,12 @@ I wish I'd:
 	But somehow, you stayed, even after all of it. We spent so many nights talking, working through the mess I’d made, and you still chose to see me as I am. I’ll never forget that, or take it for granted.
 	Thank you for accepting me, as I am. I wish I had done the same a long time ago.
 	I hope, as hard as it all was, that in the end, it brought us closer to the truth—and closer to each other.
-	# added meaning from feeling authentic and personally motivated
-	set {values.meaning} += 20
-	# high fulfillment from living true to personal ambitions
-	set {values.fulfillment} += 20
-	# enhanced inner peace from rejecting external expectations
-	set {values.inner_peace} += 15
-	# minimal impact on connection as focus was inward
-	set {values.connection} += -5
 	# health gain from reduced stress in living authentically
 	set {values.health} += 5
-	# minor legacy impact from inspiring others or creating something lasting
-	set {values.legacy} += 5
 
 - Set boundaries with toxic people, including family members, to protect my well-being.
 	set {choices.40_choice} = "boundaries"
+	[signal arg_type="dict" arg="{"background":"boundaries"}"]
 	Player: You remember how it was back then - every family gathering felt like walking on eggshells.
 	How many Sunday dinners did I sit through, biting my tongue, watching the clock?
 	I can see now what could have been different. I could have stood up that time at the dinner table, when they were criticizing my choice to take a lower-paying job that actually meant something to me.
@@ -150,18 +129,8 @@ I wish I'd:
 	I can picture myself standing at the phone, hands shaking, telling them I wouldn't be coming to the weekly dinners anymore.
 	But you were right - remember how you'd say that sometimes love means loving from a distance?
 	It's funny how real it feels, even now. All these years later, I can still feel the weight lifting from my shoulders just imagining it.
-	# strong boost to inner peace from healthy boundaries and self-respect
-	set {values.inner_peace} += 25
-	# moderate fulfillment from creating positive, affirming relationships
-	set {values.fulfillment} += 10
-	# slight negative impact on connection due to distancing from family
-	set {values.connection} += -10
 	# meaningful gains in health from reduced emotional stress
 	set {values.health} += 15
-	# minor impact on meaning as boundary-setting aligns with self-respect
-	set {values.meaning} += 5
-	# limited effect on legacy; a personal choice with few external results
-	set {values.legacy} += 0
 
 if {reached_the_end} == false:
 	jump 60_choice/

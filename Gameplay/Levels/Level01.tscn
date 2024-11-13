@@ -1,8 +1,30 @@
-[gd_scene load_steps=2 format=3 uid="uid://dakphwh8q4546"]
+[gd_scene load_steps=7 format=3 uid="uid://dakphwh8q4546"]
 
 [ext_resource type="Script" path="res://Gameplay/Levels/level_01.gd" id="1_uveal"]
+[ext_resource type="Shader" path="res://assets/backgrounds/background.gdshader" id="2_tu5hf"]
+[ext_resource type="Texture2D" uid="uid://ci1ltr4fexksg" path="res://assets/backgrounds/bed.jpeg" id="3_05ybs"]
 
-[node name="Level01" type="Node2D"]
+[sub_resource type="FastNoiseLite" id="FastNoiseLite_x8gri"]
+frequency = 0.0104
+
+[sub_resource type="NoiseTexture2D" id="NoiseTexture2D_lw5nv"]
+noise = SubResource("FastNoiseLite_x8gri")
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_558cs"]
+shader = ExtResource("2_tu5hf")
+shader_parameter/intensity = 0.015
+shader_parameter/tint_color = Color(0.0588235, 0.0588235, 0.176471, 0)
+shader_parameter/tint_amount = 0.45
+shader_parameter/radius = 0.3
+shader_parameter/warp_texture = SubResource("NoiseTexture2D_lw5nv")
+
+[node name="Level01" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
 script = ExtResource("1_uveal")
 
 [node name="Debug" type="Control" parent="."]
@@ -46,3 +68,15 @@ layout_mode = 2
 
 [node name="ReachedTheEndLabel" type="Label" parent="Debug/VBoxContainer"]
 layout_mode = 2
+
+[node name="Background" type="TextureRect" parent="."]
+material = SubResource("ShaderMaterial_558cs")
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("3_05ybs")
+expand_mode = 2
+stretch_mode = 6

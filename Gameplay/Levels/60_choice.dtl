@@ -1,6 +1,7 @@
 if {reached_the_end} == false:
 	# Average health on 60s is between 50 and 30
 	set {values.health} -= 20
+	[signal arg_type="dict" arg="{"background":"bed"}"]
 	Talking about my regrets, the things I wish I’d done differently...
 	[sound path="res://assets/sounds/wheezing02.ogg" volume="0.0" bus="SFX"]
 	set {values.health} -= 30
@@ -27,6 +28,7 @@ if {reached_the_end} == false:
 	There were so many moments I could’ve just told you how much you meant to me, how grateful I was. But I’d worry—overthink, get caught up in whether it was the ‘right time’ or if I’d say it ‘right.’
 	Looking back, I see how much time I spent holding in things I should’ve just shared, and how often I let little worries take up space where love and honesty should’ve been.
 
+[signal arg_type="dict" arg="{"background":"bed"}"]
 Player: I regret...
 - Putting off saying how I feel
 	jump express_feelings
@@ -35,6 +37,7 @@ Player: I regret...
 
 label express_feelings
 set {choices.60_choice} = "express_feelings"
+[signal arg_type="dict" arg="{"background":"express_feelings"}"]
 Player: I really regret putting off saying how I feel.
 When I think about it now, it’s those simple words—the ‘I love yous,’ the ‘I’m sorrys’—that I wish I’d said more, without holding back, without waiting for some ‘perfect’ moment.
 They’re such important words, but sometimes it felt easier to let them sit in my chest instead of letting them out.
@@ -59,6 +62,7 @@ jump main/ending
 
 label worries
 set {choices.60_choice} = "worries"
+[signal arg_type="dict" arg="{"background":"worries"}"]
 Player: I regret all the time I spent worrying—so much wasted energy on things that never even happened. And yet, I clung to those worries like they were truths, letting them weigh me down.
 I see now how they kept me from just relaxing, from being fully present with you and the people I loved.
 t’s like those times we’d go out for dinner, and I’d be half-listening, my mind drifting off to work, bills, or some little thing I’d said or done that I was sure had been taken the wrong way.

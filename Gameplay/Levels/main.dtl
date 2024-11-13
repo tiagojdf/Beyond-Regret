@@ -19,6 +19,7 @@ jump 20_choice/
 
 label ending
 set {reached_the_end} = true
+[signal arg_type="dict" arg="{"background":"artistic_passion"}"]
 Looking back, I realize how every choice, even the missteps, shaped who I became.
 If I'd done things differently—if I’d let go of those worries sooner or spoken up when I held back—maybe I’d have fewer regrets. I’d probably feel lighter, maybe even happier.
 But, you know, I'd also be someone else, wouldn’t I? Someone who might not have learned the hard way to cherish these moments, to see what really matters.
