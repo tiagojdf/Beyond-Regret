@@ -8,11 +8,6 @@ uniform vec4 tint_color: source_color = vec4(0.0, 0.0, 0.0, 1.0);
 uniform float tint_amount: hint_range(0.0, 1.0) = 0.4;
 uniform float radius: hint_range(0.0, 1.0) = 0.4;
 
-float random (vec2 uv) {
-    return fract(sin(dot(uv.xy,
-        vec2(12.9898,78.233))) * 43758.5453123);
-}
-
 float bigger_than_radius(float d, float r) {
 	if (d > r) {
 		return 1.;
@@ -25,9 +20,9 @@ void fragment() {
     float noise = fract(sin(dot(UV, vec2(12.9898, 78.233))) * 43758.5453);
 
     // get our normal warp
-    vec2 warp = texture(warp_texture, UV).xy - 0.5 + vec2(.7*cos(TIME*0.25 + PI/3.), .2*sin(TIME));
+    vec2 warp = texture(warp_texture, UV).xy - 0.5;
     // sample based on warp and intensity and blur based on intensity
-    vec4 screen = textureLod(TEXTURE, UV + warp * intensity * (2.+random(UV)*sin(TIME)), intensity * 4.0);
+    vec4 screen = textureLod(TEXTURE, UV + warp * intensity * (2.*sin(TIME)), intensity * 4.0);
     // tint our image
     screen = mix(screen, tint_color, tint_amount);
 	// Make round
