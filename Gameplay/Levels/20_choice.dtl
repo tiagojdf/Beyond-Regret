@@ -93,7 +93,10 @@ Player: I wish I had\:
 	# some health impact from challenging conditions
 	set {values.health} += -5
 
-jump 40_choice/
+if {reached_the_end} == false:
+	jump 40_choice/
+else:
+	jump main/ending
 
 label work_harder
 Player: You know, I had dreams of building a life that meant something, of doing work that would leave a mark.
@@ -177,7 +180,10 @@ If only I had\:
 	# physical toll from long hours and stress of business management
 	set {values.health} += -15
 
-jump 40_choice/
+if {reached_the_end} == false:
+	jump 40_choice/
+else:
+	jump main/ending
 
 label bond
 Player: You know what I keep thinking about lately? When I'd come home from work and just close the door on the world. There was always another report to finish, another promotion to chase.
@@ -255,5 +261,7 @@ I wish I could\:
 	# improved health through positive social engagement and personal growth
 	set {values.health} += 10
 
-
-jump 40_choice/
+if {reached_the_end} == false:
+	jump 40_choice/
+else:
+	jump main/ending

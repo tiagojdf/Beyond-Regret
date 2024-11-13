@@ -89,7 +89,10 @@ I regret I didn't do anything about it. I could have:
 	# no change to legacy
 	set {values.legacy} += 0
 
-jump 60_choice/
+if {reached_the_end} == false:
+	jump 60_choice/
+else:
+	jump main/ending
 
 label be_myself
 Player: I realize now how much I sacrificed to accomodate others, instead of living my life the way I wanted.
@@ -160,4 +163,7 @@ I wish I'd:
 	# limited effect on legacy; a personal choice with few external results
 	set {values.legacy} += 0
 
-jump 60_choice/
+if {reached_the_end} == false:
+	jump 60_choice/
+else:
+	jump main/ending
