@@ -28,6 +28,8 @@ const STUDIES: Texture = preload("res://assets/backgrounds/studies.jpeg")
 const THERAPY: Texture = preload("res://assets/backgrounds/therapy.jpeg")
 const VOLUNTEER: Texture = preload("res://assets/backgrounds/volunteer.jpeg")
 const WORK: Texture = preload("res://assets/backgrounds/work.jpeg")
+const TRAVEL: Texture = preload("res://assets/backgrounds/travel.jpeg")
+const WORRIES = preload("res://assets/backgrounds/worries.jpeg")
 
 const BACKGROUNDS: Dictionary = {
 	"bed": BED,
@@ -44,7 +46,8 @@ const BACKGROUNDS: Dictionary = {
 	"follow_dreams": FOLLOW_DREAMS,
 	"boundaries": BOUNDARIES,
 	"express_feelings": EXPRESS_FEELINGS_2,
-	"worries": null,
+	"worries": WORRIES,
+	"travel": TRAVEL
 }
 func _ready() -> void:
 	RenderingServer.set_default_clear_color(Color(.05,.05,.1))
